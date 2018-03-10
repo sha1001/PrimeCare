@@ -22,5 +22,24 @@ background-color:rgb(208,216,232);
 mat-row:nth-child(odd){
 background-color:rgb(233, 237, 244);
 }
-
+.header {
+  flex: none;
+  width: 99.5%;
+  border-radius: 35px;
+  margin-left: 5px;
+}
+.headertext {
+  font-family: Calibri;
+  font-size: 18px;
+  font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+  line-height: 26.4px;
+  color: white; 
+}
+.columntext {
+  font-family: Calibri;
+  font-size: 18px;
+  color: black; 
+}
 
