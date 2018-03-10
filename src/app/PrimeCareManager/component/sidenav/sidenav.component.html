@@ -1,0 +1,31 @@
+<app-header *ngIf="!router.url.includes('signin')"></app-header>
+
+<mat-sidenav-container>
+  <mat-sidenav *ngIf="!router.url.includes('signin')" #sidenav class="app-sidenav mat-elevation-z10"
+              position ="end"
+               [opened]="true"
+               mode ="side"
+               disableClose ="true"
+               fixedInViewport="true" 
+               [fixedTopGap]="200"
+               [fixedBottomGap]="50">
+    
+               <div class="btn-group">
+                <button routerLink="/procedure">Procedure</button>
+                <button routerLink="/patient">Patient</button>
+                <button>Personel</button>
+                <button routerLink="/facilityresources">Resources</button>
+                <button>Notify</button>
+                <button>Analytics</button>
+                <button>Alert</button>
+              </div>
+    
+  </mat-sidenav>
+  
+  <div class="app-sidenav-content">
+    
+    <div class="wrapper">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</mat-sidenav-container>

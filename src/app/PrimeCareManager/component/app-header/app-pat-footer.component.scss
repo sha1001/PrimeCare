@@ -1,0 +1,13 @@
+/* 
+ * http://stackoverflow.com/questions/489340/how-do-i-vertically-align-text-next-to-an-image-with-css
+ * Use margin-bottom
+*/
+
+.img-valign {
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+}
+
+.text2 {
+  font-size: 24px;
+}

@@ -1,0 +1,30 @@
+<div class="header" >
+    <div class="container">
+        <div class="section">
+            <span class="logo">Prime care</span> 
+            <div class="time">{{now}}</div> 
+        </div>  
+        <div class="section">
+                <div class="space">AIC: {{Header.aic}}</div>
+                <div class="space">Nurse Manager: {{Header.nursemanger}}</div>
+                <div class="space">PACU Manager: {{Header.pacumanager}}</div>
+        </div>
+        <div class="section">
+                <div class="space">OR Utilization: {{Header.orutilization}}</div>
+                <div class="space">PACU Utilization: {{Header.pacuutilization}}</div>
+        </div>
+        <div class="section">
+                <canvas
+                    baseChart
+                    [chartType]="'bar'"
+                    [datasets]="chartData"
+                    [labels]="chartLabels"
+                    [options]="chartOptions"
+                    [legend]="true"
+                    [colors]="chartColors"
+                    
+                    (chartClick)="onChartClick($event)">
+                </canvas>
+        </div>
+    </div>
+   </div>

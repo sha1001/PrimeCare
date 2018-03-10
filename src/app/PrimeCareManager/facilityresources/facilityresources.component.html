@@ -1,0 +1,54 @@
+<table style="width: 100%; table-layout: fixed">
+<div>
+    <div *ngIf="Bed">
+        <div *ngFor="let operationBed of Bed.OperationBeds" >
+            <svg width ="100%" height = "100">
+                <g *ngFor= "let operation of operationBed.Beds">
+                    <rect attr.x="{{operation.RX}}%" y="0" rx="10" ry="10" attr.width="{{operation.Width}}%" attr.height="{{operation.Height}}" attr.fill="{{operation.Color}}" 
+                    style = "stroke:rgb(178, 180, 180)"/>
+                    <text class="text1 text3" attr.x="{{operation.RX + (operation.Width/2) }}%"  y="20%" alignment-baseline="middle" font-weight="bold" font-size = "30px"  text-anchor="middle">{{operation.Name}}</text>
+                    <text class="text1 text2" attr.x="{{operation.RX + (operation.Width/2) }}%"  y="50%" alignment-baseline="middle" text-anchor="middle">{{operation.Text[0]}}</text>
+                    <text class="text1" attr.x="{{operation.RX + (operation.Width/2) }}%"  y="80%" alignment-baseline="middle" text-anchor="middle">{{operation.Text[1]}}</text>
+                </g>
+            </svg>
+        </div>
+    </div>
+</div>
+</table>
+<p style="padding: 50px;"></p>
+
+<table style="width: 100%; table-layout: fixed; font-size:25px">
+  <tr>
+      <td align="center">PACU Current Occupancy</td>
+      <td align="center"></td>
+  </tr> 
+  <tr>
+      <td align="center"  *ngIf="Bed">
+        <svg width="300" height="150">
+            <g>
+                <rect attr.x="20%" width="300" height="150" y="0"  rx="10" ry="10" style="fill:rgb(185,205,225);stroke-width:3;" />
+                <text x="50%" y="20%" alignment-baseline="middle" text-anchor="middle">Occupancy = {{Bed.CurrentOccupancy}}</text>  
+                <text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle"># Beds occupied =  {{Bed.BedOccupied}}</text>    
+                <text x="50%" y="75%" alignment-baseline="middle" text-anchor="middle"># Empty beds =  {{Bed.BedEmpty}}</text>  
+
+                </g>
+        </svg>
+    </td>
+            <td>
+                <div style="width: 80%;">
+                        <canvas
+                            baseChart
+                            [chartType]="'line'"
+                            [datasets]="chartData"
+                            [labels]="chartLabels"
+                            [options]="chartOptions"
+                            [legend]="true"
+                            [colors]="chartColors"
+                            (chartClick)="onChartClick($event)">
+                        </canvas>
+                </div>
+        </td>
+        
+  </tr>
+</table>
+<app-fc-footer></app-fc-footer>

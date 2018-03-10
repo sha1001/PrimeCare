@@ -1,0 +1,35 @@
+.header {
+    height: 200px;
+    flex: none;
+    background-color: #C9E6FF;
+    position: fixed;
+    z-index: 100;
+    width: 99.5%;
+    border-radius: 25px;
+    border: 1px solid rgb(22, 18, 236);
+    margin-left: 5px;
+  }
+  .header .logo{
+    font-size: 3.5em;
+    
+  }
+  .header .container{
+    margin-left: 25px;
+    margin-top: 20px;
+    
+  }
+  .time{
+    margin-top: 50px;
+    font-size: 1.5em;
+  }
+  .section{
+    width: 25%;
+    float: left;
+    font-size: 1.25em;
+  }
+  .space{
+    margin: 15px 10px 10px 0px;
+  }
+  .header canvas{
+    height: 175px !important;
+  }
