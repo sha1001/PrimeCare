@@ -20,13 +20,13 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
     medical: Array<Ord>;
     interval: any;
     currentAddIndex = 0;
-    times: Array<number>;
+    times: number;
 
     constructor(private dataService: AppDataService, private http: Http) {  }
 
     ngAfterViewInit() {
       this.loadComponent();
-      this.getTiem();
+      // this.getTiem();
       this.loadFromFile();
       // this.getDatas();
     }
@@ -50,7 +50,7 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
       clearInterval(this.interval);
     }
     getTiem() {
-      this.times = [10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0];
+      this.times = this.Proc.TimeList;
     }
 
     getDatas() {

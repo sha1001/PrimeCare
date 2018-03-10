@@ -23,7 +23,7 @@
 }
 .display{
     display: block; 
-    
+    margin-top: 20px;
 }
 .block {
     float: left;
@@ -44,3 +44,11 @@
     z-index: 1;
     position: fixed;
 }
+.header {
+    height: 20px;
+    flex: none;
+    position: fixed;
+    z-index: 100;
+    width: 99.5%;
+    margin-left: 5px;
+  }

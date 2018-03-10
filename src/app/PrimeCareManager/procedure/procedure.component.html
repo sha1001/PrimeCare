@@ -1,16 +1,19 @@
+<div *ngIf="Proc">
+<div class="header">
+    <div width ="100%">
+        <img class ="time" [src]= "" style="left:46.875%;" width="5px" height="100%">
+    </div>
+    <table class ="scale">     
+        <tr>
+            <th *ngFor= "let num of Proc.TimeList">
+                {{num}}:00
+              </th>
+        </tr>
+    </table>
+  </div>
+</div>
 <div class ="display">
-  <div *ngIf="Proc">
-      <div width ="100%">
-          <img class ="time" [src]= "assets/Img/Time.png" style="left:46.875%;" width="5px" height="100%">
-        </div>
-  <table class ="scale">
-      
-  <tr>
-  <th *ngFor= "let num of Proc.TimeList">
-    {{num}}
-  </th>
-  </tr>
-  </table>
+  <div *ngIf="Proc">  
   <div *ngFor="let operationRoom of Proc.OperationRooms" >
   <div class ="or-name"><span class ="name-span">{{operationRoom.Name}}</span></div>
   <div class="block">
