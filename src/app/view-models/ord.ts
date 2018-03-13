@@ -29,9 +29,10 @@ export class OperationRoom {
     Operations: Operation[];
 }
 export class Procedure {
-    TimeList: number;
+    TimeList: string;
     OperationRooms: OperationRoom[];
     CurrentTime: string;
+    Id: number;
 }
 
 
