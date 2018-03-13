@@ -1,9 +1,9 @@
-
- <div>
+ <p></p>
+ <div class="header" >
   <mat-table [dataSource]="dataSource">
       <ng-container matColumnDef="patient">
-        <mat-header-cell *matHeaderCellDef> Patient </mat-header-cell>
-        <mat-cell *matCellDef="let patient">
+        <mat-header-cell class="headertext" *matHeaderCellDef> Patient </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient">
           <div>{{patient.patient[0]}}</div> 
           <div>{{patient.patient[1]}}</div> 
           <div>{{patient.patient[2]}}</div> 
@@ -11,62 +11,62 @@
         </mat-cell>
       </ng-container>
       <ng-container matColumnDef="location">
-        <mat-header-cell *matHeaderCellDef> Location </mat-header-cell>
-        <mat-cell *matCellDef="let patient"> {{patient.location}} </mat-cell>
+        <mat-header-cell class="headertext" *matHeaderCellDef> Location </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient"> {{patient.location}} </mat-cell>
       </ng-container>
       <ng-container matColumnDef="disposition">
-        <mat-header-cell *matHeaderCellDef> Disposition </mat-header-cell>
-        <mat-cell *matCellDef="let patient"> {{patient.disposition}} </mat-cell>
+        <mat-header-cell class="headertext" *matHeaderCellDef> Disposition </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient"> {{patient.disposition}} </mat-cell>
       </ng-container>
 
       <ng-container matColumnDef="surgeon">
-        <mat-header-cell *matHeaderCellDef> Surgeon </mat-header-cell>
-        <mat-cell *matCellDef="let patient"> {{patient.surgeon}} </mat-cell>
+        <mat-header-cell class="headertext" *matHeaderCellDef> Surgeon </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient"> {{patient.surgeon}} </mat-cell>
       </ng-container>
     
       <ng-container matColumnDef="anesthesia">
-        <mat-header-cell *matHeaderCellDef> Anesthesia </mat-header-cell>
-        <mat-cell *matCellDef="let patient"> {{patient.anesthesia}} </mat-cell>
+        <mat-header-cell class="headertext" *matHeaderCellDef> Anesthesia </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient"> {{patient.anesthesia}} </mat-cell>
       </ng-container>
 
       <ng-container matColumnDef="procedure">
-        <mat-header-cell *matHeaderCellDef> Procedure </mat-header-cell>
-        <mat-cell *matCellDef="let patient"> {{patient.procedure}} </mat-cell>
+        <mat-header-cell class="headertext" *matHeaderCellDef> Procedure </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient"> {{patient.procedure}} </mat-cell>
       </ng-container>
 
       <ng-container matColumnDef="start">
-        <mat-header-cell *matHeaderCellDef> Start </mat-header-cell>
-        <mat-cell *matCellDef="let patient"> {{patient.start}} </mat-cell>
+        <mat-header-cell class="headertext" *matHeaderCellDef> Start </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient"> {{patient.start}} </mat-cell>
       </ng-container>
     
       <ng-container matColumnDef="status">
-        <mat-header-cell *matHeaderCellDef> Status </mat-header-cell>
-        <mat-cell *matCellDef="let patient" style="flex: 1; min-height: 48px; display: flex; align-items: center;" [ngStyle]=changeBackground(patient.status[1])>{{patient.status[0]}} </mat-cell>
+        <mat-header-cell class="headertext" *matHeaderCellDef> Status </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient" style="flex: 1; min-height: 48px; display: flex; align-items: center;" [ngStyle]=changeBackground(patient.status[1])>{{patient.status[0]}} </mat-cell>
       </ng-container>
 
       <ng-container matColumnDef="cons">
-        <mat-header-cell *matHeaderCellDef> Cons </mat-header-cell>
-        <mat-cell *matCellDef="let patient"><img src ="../../../assets/{{patient.cons}}"></mat-cell>
+        <mat-header-cell class="headertext" *matHeaderCellDef> Cons </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient"><img src ="../../../assets/{{patient.cons}}"></mat-cell>
       </ng-container>
 
       <ng-container matColumnDef="hp">
-        <mat-header-cell *matHeaderCellDef> HP </mat-header-cell>
-        <mat-cell *matCellDef="let patient"> <img src ="../../../assets/{{patient.hp}}"> </mat-cell>
+        <mat-header-cell class="headertext" *matHeaderCellDef> HP </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient"> <img src ="../../../assets/{{patient.hp}}"> </mat-cell>
       </ng-container>
     
       <ng-container matColumnDef="xray">
-        <mat-header-cell *matHeaderCellDef> X-ray </mat-header-cell>
-        <mat-cell *matCellDef="let patient"> <img src ="../../../assets/{{patient.xray}}"></mat-cell>
+        <mat-header-cell class="headertext" *matHeaderCellDef> X-ray </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient"> <img src ="../../../assets/{{patient.xray}}"></mat-cell>
       </ng-container>
 
       <ng-container matColumnDef="lab">
-        <mat-header-cell *matHeaderCellDef> Lab </mat-header-cell>
-        <mat-cell *matCellDef="let patient"> <img src ="../../../assets/{{patient.lab}}"></mat-cell>
+        <mat-header-cell class="headertext" *matHeaderCellDef> Lab </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient"> <img src ="../../../assets/{{patient.lab}}"></mat-cell>
       </ng-container>
 
       <ng-container matColumnDef="ekg">
-        <mat-header-cell *matHeaderCellDef> EKG </mat-header-cell>
-        <mat-cell *matCellDef="let patient"><img src ="../../../assets/{{patient.ekg}}"></mat-cell>
+        <mat-header-cell class="headertext" *matHeaderCellDef> EKG </mat-header-cell>
+        <mat-cell class="columntext" *matCellDef="let patient"><img src ="../../../assets/{{patient.ekg}}"></mat-cell>
       </ng-container>
 
     <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
