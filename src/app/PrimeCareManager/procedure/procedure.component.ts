@@ -42,7 +42,7 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
       if (!this.list) {
       this.http.get('http://localhost:4200/assets/Procedure_full.json').subscribe(result => {
         this.list = result.json() as Procedure[];
-        this.Proc = this.list[0];
+        this.Proc = this.list[this.globals1.currentCounter];
     }, error => console.error(error));
     console.log(this.Proc);
     }

@@ -2,8 +2,8 @@
  import { NgModule } from '@angular/core';
  import { Routes, RouterModule } from '@angular/router';
  import { ProcedureComponent } from './PrimeCareManager/procedure/procedure.component';
- import { PatientComponent } from './PrimeCareManager/patient/patient.component'; 
- import { FacilityresourcesComponent } from './PrimeCareManager/facilityresources/facilityresources.component'; 
+ import { PatientComponent } from './PrimeCareManager/patient/patient.component';
+ import { FacilityresourcesComponent } from './PrimeCareManager/facilityresources/facilityresources.component';
 
   import { SignInComponent } from './users/sign-in/sign-in.component';
   import { AuthGuard } from './services/auth-guard.service';
