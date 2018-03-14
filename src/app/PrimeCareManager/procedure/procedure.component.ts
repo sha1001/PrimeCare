@@ -4,6 +4,7 @@ import { AppDataService2 } from '../../services/app-data.service2';
 import { Ord, OrdItem, Procedure, Operation, OperationRoom } from '../../view-models/Ord';
 import {Observable} from 'rxjs/Observable';
 import { Http } from '@angular/http';
+import {Globals} from '../globals';
 
 
 @Component({
@@ -23,8 +24,11 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
     currentAddIndex = 0;
     counter = 0;
     times: number;
+    globals1: Globals;
 
-    constructor(private dataService: AppDataService, private http: Http) {  }
+    constructor(private dataService: AppDataService, private http: Http, private globals: Globals) {
+      this.globals1 = globals;
+     }
 
     ngAfterViewInit() {
       // this.loadComponent();
@@ -35,12 +39,14 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
     }
 
     loadFromFile() {
+      if (!this.list) {
       this.http.get('http://localhost:4200/assets/Procedure_full.json').subscribe(result => {
         this.list = result.json() as Procedure[];
         this.Proc = this.list[0];
     }, error => console.error(error));
     console.log(this.Proc);
     }
+  }
     loadComponent() {
     if (this.currentAddIndex === 0) {
         this.currentAddIndex = 1;
@@ -50,12 +56,12 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
       this.allmedicaldata = this.dataService.ords;
     }
     loadProcedure() {
-      if (this.counter === 101) {
+      /* if (this.counter === 101) {
         this.counter = 0;
-      }
+      } */
       this.Proc = this.list.filter(
-                pro => pro.Id === (this.counter + 1))[0];
-        this.counter++;
+                pro => pro.Id === (this.globals1.currentCounter))[0];
+       // this.counter++;
     }
 
     ngOnDestroy() {

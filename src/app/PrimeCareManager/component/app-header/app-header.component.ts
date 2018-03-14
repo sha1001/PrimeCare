@@ -6,6 +6,7 @@ import { Header } from '../../../view-models/header';
 import {Observable} from 'rxjs/Observable';
 import { Http } from '@angular/http';
 import { Procedure } from '../../../view-models/ord';
+import {Globals} from '../../globals';
 
 @Component({
     selector: 'app-header',
@@ -45,9 +46,10 @@ export class AppHeaderComponent implements AfterViewInit {
       onChartClick(event) {
       }
 
-    constructor(private dataService: HeaderDataservice, private http: Http) {
+    constructor(private dataService: HeaderDataservice, private http: Http, private globals: Globals) {
         this.now = moment().format('YYYY-MM-DDTHH:mm:ss');
         this.getData();
+        this.counter = globals.currentCounter;
         }
     ngAfterViewInit() {
         this.loadFromFile();
@@ -55,19 +57,21 @@ export class AppHeaderComponent implements AfterViewInit {
           }
 
           loadFromFile() {
+              if (!this.list) {
             this.http.get('http://localhost:4200/assets/Procedure_full.json').subscribe(result => {
               this.list = result.json() as Procedure[];
               this.timeDisplay = this.list[0].CurrentTime;
           }, error => console.error(error));
           console.log(this.list);
           }
+        }
           loadProcedure() {
             if (this.counter === 101) {
               this.counter = 0;
             }
             this.timeDisplay = this.list.filter(
                       pro => pro.Id === (this.counter + 1))[0].CurrentTime;
-              this.counter++;
+                      this.globals.currentCounter = this.counter++;
           }
           getDatas() {
             this.interval = setInterval(() => {

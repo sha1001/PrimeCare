@@ -33,6 +33,7 @@ import { PatFooterComponent } from './PrimeCareManager/component/app-header/app-
 import { ProcFooterComponent } from './PrimeCareManager/component/app-header/app-proc-footer.component';
 import { FcFooterComponent } from './PrimeCareManager/component/app-header/app-fc-footer.component';
 import { MomentModule } from 'angular2-moment';
+import {Globals} from './PrimeCareManager/globals';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { MomentModule } from 'angular2-moment';
     UserService,
     { provide: UserApi, useExisting: UserService },
     AuthGuard,
+    Globals
   ],
   imports: [
     CommonModule,
