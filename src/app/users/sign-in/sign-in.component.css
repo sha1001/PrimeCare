@@ -9,17 +9,28 @@
 }
 
 .sign-in-form {
+    position: fixed;
+    top: 50px;
     min-width: 300px;
     background-color: white;
-    opacity: .93;
+    
     padding: 20px;
+}
+.pos{
+    padding: 50px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+.form-group{
+    margin-bottom: 20px;
 }
 
 a {
     line-height: 32px;
 }
 button {
-    float: right;
+    float: left;
 }
 
 .message {
