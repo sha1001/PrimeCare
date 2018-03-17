@@ -46,7 +46,7 @@ export class AppHeaderComponent implements AfterViewInit {
       onChartClick(event) {
       }
 
-    constructor(private dataService: HeaderDataservice, private http: Http, private globals: Globals) {
+    constructor(private dataService: HeaderDataservice, private http: Http, public globals: Globals) {
         this.now = moment().format('YYYY-MM-DDTHH:mm:ss');
         this.getData();
         this.counter = globals.currentCounter;
