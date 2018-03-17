@@ -30,4 +30,4 @@ import { AnalyticsComponent } from './PrimeCareManager/analytics/analytics/analy
  })
  export class AppRoutingModule { }
  export const routingComponents = [ProcedureComponent, PatientComponent,
-  FacilityresourcesComponent, PersonelComponent, NotifyComponent, AnalyticsComponent]; 
+  FacilityresourcesComponent, PersonelComponent, NotifyComponent, AnalyticsComponent];
