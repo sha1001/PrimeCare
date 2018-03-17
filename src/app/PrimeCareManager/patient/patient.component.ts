@@ -9,7 +9,7 @@ import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
 import 'rxjs/add/observable/fromEvent';
 
-import { Patient } from '../../view-models/patient.model';
+import { Patient, PatientScreen } from '../../view-models/patient.model';
 import { PatientDataservice } from '../../services/patient-dataservice';
 
 
@@ -20,15 +20,18 @@ import { PatientDataservice } from '../../services/patient-dataservice';
 })
 export class PatientComponent  implements OnInit {
 
-  color:string;
+  color: string;
+  patientscreen: PatientScreen;
+  interval: any;
+  patientSc: Observable<any>;
 
   dataSource = new PatientDataSource(this.patientService);
-  displayedColumns = ['patient', 'location', 'disposition', 'surgeon', 'anesthesia', 'procedure', 'start', 'status' , 'cons', 'hp', 'xray', 'lab', 'ekg' ];
-  constructor(private patientService: PatientDataservice) { 
-
+  displayedColumns = ['patient', 'location', 'disposition', 'surgeon', 'anesthesia',
+   'procedure', 'start', 'status' , 'cons', 'hp', 'xray', 'lab', 'ekg' ];
+  constructor(private patientService: PatientDataservice) {
   }
-  
-  changeBackground(data):object {
+
+  changeBackground(data): object {
     return {'background-color': data};
 }
 
@@ -43,4 +46,4 @@ export class PatientDataSource extends DataSource<any> {
     return this.patientService.getPatientsData();
   }
   disconnect() {}
-} 
+}
