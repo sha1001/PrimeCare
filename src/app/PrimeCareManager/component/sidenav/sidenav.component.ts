@@ -20,7 +20,7 @@ export class SidenavComponent implements OnInit {
 
   constructor(
     zone: NgZone,
-    private router: Router) {
+    public router: Router) {
     this.mediaMatcher.addListener(mql =>
       zone.run(() => this.mediaMatcher = mql));
   }
