@@ -34,6 +34,9 @@ import { ProcFooterComponent } from './PrimeCareManager/component/app-header/app
 import { FcFooterComponent } from './PrimeCareManager/component/app-header/app-fc-footer.component';
 import { MomentModule } from 'angular2-moment';
 import {Globals} from './PrimeCareManager/globals';
+import { PersonelComponent } from './PrimeCareManager/personel/personel/personel.component';
+import { NotifyComponent } from './PrimeCareManager/notify/notify/notify.component';
+import { AnalyticsComponent } from './PrimeCareManager/analytics/analytics/analytics.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +49,10 @@ import {Globals} from './PrimeCareManager/globals';
     AppHeaderComponent,
     PatFooterComponent,
     ProcFooterComponent,
-    FcFooterComponent
+    FcFooterComponent,
+    PersonelComponent,
+    NotifyComponent,
+    AnalyticsComponent
   ],
   providers: [
     AppDataService,

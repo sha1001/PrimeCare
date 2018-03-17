@@ -42,3 +42,7 @@
 	font-weight: 500;
 	line-height: 26.4px;
 }
+
+.list .mat-list .mat-list-item {
+  height: 2px /* To avoid calculated height from mat-line-x classes */
+}
