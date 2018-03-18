@@ -1,0 +1,114 @@
+/* Structure */
+  
+.mat-table {
+    display: table;
+    height: 3000px;
+    border: 1px solid pink;
+  }
+  
+  
+  .highlight{
+  background: #42A948; /* green */
+  }
+  .mat-header-row {
+  color:rgb(79, 129, 189);
+  position: sticky;
+  top: 20;
+  background: rgb(79, 129, 189);
+  }
+  
+  .header {
+    flex: none;
+    width: 99.5%;
+    margin-left: 5px;
+  }
+  .headertext {
+    font-family: Calibri;
+    font-size: 18px;
+    font-style: normal;
+      font-variant: normal;
+      font-weight: 500;
+    line-height: 26.4px;
+    color: white; 
+  }
+  .columntext {
+    font-family: Calibri;
+    font-size: 18px;
+    color: black; 
+  }
+.mat-cell {
+    width: 30px;
+    border: 1px solid black;
+}
+table {
+    width: 98%;
+    border-collapse: collapse;
+    border: 1px solid rgb(219, 238, 244);
+  }
+  
+  table td {
+    border: 1px solid rgb(219, 238, 244);
+  }
+  .text1 {
+    font-weight: bold;
+    font-family: Calibri;
+    font-style: normal;
+    font-size: 19px; 
+  }
+  .textalign {
+   font-family: Calibri;
+   text-align:center;
+   vertical-align:middle;
+  }
+  .text2 {
+    font-family: Calibri;
+    font-style: normal;
+    font-size: 17px; 
+  }
+  .text3 {
+    font-weight: bold;
+    font-family: Calibri;
+    font-style: normal;
+    font-size: 15px; 
+  }
+  .text4 {
+    font-family: Calibri;
+    font-style: normal;
+    font-size: 15px; 
+  }
+  .gtext {
+    background-color: rgb(219, 238, 244);}
+  .gtext1 {
+        background-color: rgb(235, 241, 222);}
+        
+    .md-select-value.md-select-placeholder {
+        color: red !important;
+        }
+
+    .mat-select {
+        display: inline-block;
+        width: 100%;
+        outline: solid;
+        outline-color: rgb(46, 125, 150);
+        height: 30px;
+        text-align:center;
+        font-family: Calibri;
+        background-color: rgb(219, 238, 244);
+        padding-top: 8px;  //makes the select's baseline align with neighboring text input
+        margin-bottom: 14px //makes the text input below my select align with it's neighbor also
+        }     
+        .textalign1 {
+            font-family: Calibri;
+            text-align:center;
+            background-color: rgb(219, 238, 244);
+            margin: auto;   
+            width: 150px;
+            border: 2px solid rgb(46, 125, 150);;
+            padding-top: 20px;
+            padding-right: 10px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+
+           }
+         
+  
