@@ -177,7 +177,9 @@ table {
     font-size: 27px;
     color:rgb(127, 127, 127);
 }
-
+::ng-deep .mat-input-underline {
+    display: none;
+}
   
          
   
