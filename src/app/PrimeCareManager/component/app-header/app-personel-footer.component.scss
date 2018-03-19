@@ -1,0 +1,84 @@
+/* 
+ * http://stackoverflow.com/questions/489340/how-do-i-vertically-align-text-next-to-an-image-with-css
+ * Use margin-bottom
+*/
+
+.img-valign {
+  vertical-align: middle;
+  margin: 20px 10px;
+}
+
+.img-valign2 {
+  margin: 10px 10px;
+}
+
+
+.text2 {
+  font-family: Calibri;
+  font-size: 18px;
+  font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+.text3 {
+  font-family: Calibri; 
+  font-size: 18px;
+  font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+.footer {
+  height: 50px;
+  flex: none;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  bottom: 0px;
+  background-color: rgb(217, 217, 217);;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 12%;
+  max-width: 12%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Create four equal columns that sits next to each other */
+.column1 {
+  flex: 12.5%;
+  max-width: 12.5%;
+  padding: 0 4px;
+}
+
+.column1 img {
+  margin-top: 6px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

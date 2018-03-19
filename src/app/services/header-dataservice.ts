@@ -10,7 +10,7 @@ export class HeaderDataservice {
   constructor(private http: Http) { }
 
   getData(): Observable<Header> {
-    return this.http.get('http://localhost:4200/assets/header.json').map(
+    return this.http.get('assets/header.json').map(
       (response) => response.json()
     );
   }

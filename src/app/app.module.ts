@@ -30,6 +30,7 @@ import { UserApi } from './users/user-api';
 import { FormsModule } from '@angular/forms';
 import { AppHeaderComponent } from './PrimeCareManager/component/app-header/app-header.component';
 import { PatFooterComponent } from './PrimeCareManager/component/app-header/app-pat-footer.component';
+import { PersonelFooterComponent } from './PrimeCareManager/component/app-header/app-personel-footer.component';
 import { ProcFooterComponent } from './PrimeCareManager/component/app-header/app-proc-footer.component';
 import { FcFooterComponent } from './PrimeCareManager/component/app-header/app-fc-footer.component';
 import { MomentModule } from 'angular2-moment';
@@ -48,6 +49,7 @@ import { AnalyticsComponent } from './PrimeCareManager/analytics/analytics/analy
     SignInComponent,
     AppHeaderComponent,
     PatFooterComponent,
+    PersonelFooterComponent,
     ProcFooterComponent,
     FcFooterComponent,
     PersonelComponent,
