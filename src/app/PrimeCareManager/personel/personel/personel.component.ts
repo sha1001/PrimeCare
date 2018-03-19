@@ -9,10 +9,6 @@ import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
 import 'rxjs/add/observable/fromEvent';
 
-import { Patient } from '../../../view-models/personel.model';
-import { PersonelDataservice } from '../../../services/personel-dataservice';
-
-
 @Component({
   selector: 'app-personel',
   templateUrl: './personel.component.html',

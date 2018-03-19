@@ -21,8 +21,6 @@ import { HeaderDataservice } from './services/header-dataservice';
 import { FacilityresourcesComponent } from './PrimeCareManager/facilityresources/facilityresources.component';
 import { FacilityDataservice } from './services/facility.dataservice';
 
-import { PersonelDataservice } from './services/personel-dataservice';
-
 import { ChartsModule } from 'ng2-charts';
 
 import { SignInComponent } from './users/sign-in/sign-in.component';
@@ -60,7 +58,6 @@ import { AnalyticsComponent } from './PrimeCareManager/analytics/analytics/analy
     AppDataService,
     PatientDataservice,
     FacilityDataservice,
-    PersonelDataservice,
     HeaderDataservice,
     UserService,
     { provide: UserApi, useExisting: UserService },
