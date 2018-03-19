@@ -170,6 +170,7 @@ table {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    color: white;
   }
  
 .mat-card-title {
@@ -180,6 +181,11 @@ table {
 ::ng-deep .mat-input-underline {
     display: none;
 }
-  
+::ng-deep .mat-select {
+    font-size: 25px;
+    color: rgb(49, 143, 156);
+}
+
+
          
   
