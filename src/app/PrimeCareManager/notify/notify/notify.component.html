@@ -1,3 +1,93 @@
-<p>
-  notify works!
-</p>
+<p></p>
+<div style="margin-left:50px"> 
+  <table style="width: 100%; height:600px;" >
+    <tr>
+      <td class ="textalign"><h1>Send notifications: </h1></td>
+      <td class ="textalign"><h1>Set notifications: </h1>  
+      </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="textalign" >
+                Select Personnel:
+            </div>
+            <div class="textalign" >
+                <mat-input-container>
+                  <mat-select [(ngModel)]="selectedValue">
+                      <mat-option value="showall">CRNA2, Test </mat-option>
+                  </mat-select>
+                </mat-input-container>
+            </div>
+            <td>
+                <div class="textalign" >
+                    Select Personnel:
+                </div>
+                <div class="textalign" >
+                    <mat-input-container>
+                      <mat-select [(ngModel)]="selectedValueAnes4">
+                          <mat-option value="showAnes4">Anes4, Test </mat-option>
+                      </mat-select>
+                    </mat-input-container>
+                </div>
+            </td>
+      </tr>
+      <tr>
+          <td>
+              <div class="textalign" >
+                  Select Message:
+              </div>
+              <div class="textalign" >
+                  <mat-input-container>
+                    <mat-select [(ngModel)]="selectedreadyfi">
+                        <mat-option value="showreadyfi">Ready for induction</mat-option>
+                    </mat-select>
+                  </mat-input-container>
+              </div>
+              <td>
+                  <div class="textalign" >
+                      Select Trigger:
+                  </div>
+                  <div class="textalign" >
+                      <mat-input-container>
+                        <mat-select [(ngModel)]="selectedValuetrigger">
+                            <mat-option value="showtrigger">Emergence</mat-option>
+                        </mat-select>
+                      </mat-input-container>
+                  </div>
+              </td>
+        </tr>
+        <tr>
+          <td>
+              <div class="textalign" >
+                <mat-form-field class="demo-full-width">
+                  <textarea class="demo-textarea" matInput>Enter your message here </textarea>
+                </mat-form-field>
+              </div>
+            </td>
+            <td>
+                <div class="textalign" >
+                    <button mat-raised-button	class="mat-button">Confirm</button>
+                </div>
+              </td>
+        </tr>
+        <tr>
+          
+              <td>
+                  <div class="textalign" >
+                      <button mat-raised-button	class="mat-button">Send Message</button>
+                  </div>
+                </td>
+                <td>
+                    <div class="textalign" >
+                        <mat-card class="demo-full-width demo-card">
+                            <mat-card-title>Current set alerts</mat-card-title>
+                            <mat-card-content>
+                              <p class="cardcontent">Anes3, Test for In room.</p>
+                              <p class="cardcontent">Surg3, Test for Closing .</p>
+                            </mat-card-content>
+                          </mat-card>
+                    </div>
+                  </td>
+          </tr>
+  </table>  
+</div>

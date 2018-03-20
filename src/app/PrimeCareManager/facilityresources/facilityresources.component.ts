@@ -49,7 +49,7 @@ export class FacilityresourcesComponent implements  AfterViewInit {
     // this.getDatas();
   }
   loadFromFile() {
-    this.http.get('http://localhost:4200/assets/facilityresources.json').subscribe(result => {
+    this.http.get('assets/facilityresources.json').subscribe(result => {
       // tslint:disable-next-line:no-debugger
       debugger;
       this.Bed = result.json() as Bed;

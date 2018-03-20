@@ -58,7 +58,7 @@ export class AppHeaderComponent implements AfterViewInit {
 
           loadFromFile() {
               if (!this.list) {
-            this.http.get('http://localhost:4200/assets/Procedure_full.json').subscribe(result => {
+            this.http.get('assets/Procedure_full.json').subscribe(result => {
               this.list = result.json() as Procedure[];
               this.timeDisplay = this.list[0].CurrentTime;
           }, error => console.error(error));
