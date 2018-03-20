@@ -1,7 +1,7 @@
 <div *ngIf="!router.url.includes('signin')">
 <app-header ></app-header>
 </div>
-<mat-sidenav-container>
+<mat-sidenav-container class="mat-sidenav-container" style.top.px="{{sidetop}}" style.margin-bottom.px ="{{sidemarginbottom}}">
   <mat-sidenav *ngIf="!router.url.includes('signin')" #sidenav 
               position ="end"
                [opened]="true"
