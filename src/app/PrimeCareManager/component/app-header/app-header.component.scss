@@ -47,6 +47,7 @@
 }
 
 .app-class .mat-list-item {
+  width: 75%;
   height: 1.2em;
   font-family: Calibri;
   font-size: 20px;
@@ -55,4 +56,9 @@
   font-weight: 500;
   line-height: 26.4px;
   border: 1px solid rgb(144, 144, 150);
-} 
+}
+.alert {
+  border-radius: 15px;
+  border: 1px solid rgb(22, 18, 236);
+  margin-right: 50px;
+}
