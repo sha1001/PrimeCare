@@ -10,13 +10,13 @@ patientSc: Observable<any>;
   constructor(private http: Http) { }
 
   getPatientsData() {
-    return this.http.get('assets/Patient1.json').map(
+    return this.http.get('assets/Patient.json').map(
       (response) => response.json()
     );
   }
 
   getPatientsData1() {
-    this.patientSc = this.http.get('assets/Patient1.json').map(
+    this.patientSc = this.http.get('assets/Patient.json').map(
       (response) => response.json()
     );
     let item: PatientScreen;
