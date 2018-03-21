@@ -16,7 +16,7 @@
   }
   .header .container{
     margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 10px;
     
   }
   .time{
@@ -28,8 +28,11 @@
     float: left;
     font-size: 1.25em;
   }
+  .subsection{
+    margin-top: 30px;
+  }
   .space{
-    margin: 15px 10px 10px 0px;
+    margin: 0px 0px 0px 0px;
   }
   .header canvas{
     height: 175px !important;

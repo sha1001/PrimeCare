@@ -2,12 +2,15 @@
     <div class="container">
         <div class="section">
             <span class="logo">Prime care</span> 
-            <div class="time">{{timeDisplay}}</div> 
+            <div class="time">{{now}} {{timeDisplay}}</div> 
+            <div class="space text2">{{globals.currentCounter}}</div>
         </div>  
         <div class="section">
                 <div class="space text2">AIC: {{Header.aic}}</div>
                 <div class="space text2">Nurse Manager: {{Header.nursemanger}}</div>
                 <div class="space text2">PACU Manager: {{Header.pacumanager}}</div>
+                <div class="text2 subsection">OR Utilization: {{Header.orutilization}}</div>
+                <div class="space text2">PACU Utilization: {{Header.pacuutilization}}</div>
         </div>
         <div class="section">
         <mat-list>
@@ -17,9 +20,8 @@
                 <mat-list-item> PACU Utilization: {{Header.pacuutilization}}</mat-list-item>
                 <mat-list-item> PACU Utilization: {{globals.currentCounter}}</mat-list-item>  -->
 
-                <div class="space text2">OR Utilization: {{Header.orutilization}}</div>
-                <div class="space text2">PACU Utilization: {{Header.pacuutilization}}</div>
-                <div class="space text2">PACU Utilization: {{globals.currentCounter}}</div>
+                
+                
                </mat-list>
         </div>
         <div class="section">
