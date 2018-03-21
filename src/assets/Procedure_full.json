@@ -51,7 +51,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -110,7 +110,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Not admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
 			"Id": "C006"
@@ -169,7 +169,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:20",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PreOp",
 			"Id": "C009"
@@ -207,7 +207,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:20",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PreOp",
 			"Id": "C011"
@@ -303,7 +303,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -362,7 +362,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Not admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
 			"Id": "C006"
@@ -421,7 +421,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:20",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PreOp",
 			"Id": "C009"
@@ -459,7 +459,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:20",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PreOp",
 			"Id": "C011"
@@ -555,7 +555,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -614,7 +614,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Not admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
 			"Id": "C006"
@@ -673,7 +673,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:20",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PreOp",
 			"Id": "C009"
@@ -711,7 +711,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:20",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PreOp",
 			"Id": "C011"
@@ -807,7 +807,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -866,7 +866,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Not admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
 			"Id": "C006"
@@ -925,7 +925,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:20",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PreOp",
 			"Id": "C009"
@@ -963,7 +963,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In Room",
 			"Id": "C011"
@@ -1059,7 +1059,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -1118,7 +1118,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Not admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
 			"Id": "C006"
@@ -1177,7 +1177,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In Room",
 			"Id": "C009"
@@ -1215,7 +1215,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In Room",
 			"Id": "C011"
@@ -1311,7 +1311,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -1370,7 +1370,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Not admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
 			"Id": "C006"
@@ -1429,7 +1429,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In Room",
 			"Id": "C009"
@@ -1467,7 +1467,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In Room",
 			"Id": "C011"
@@ -1563,7 +1563,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -1622,7 +1622,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Not admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
 			"Id": "C006"
@@ -1681,7 +1681,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Induction",
 			"Id": "C009"
@@ -1719,7 +1719,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Induction",
 			"Id": "C011"
@@ -1815,7 +1815,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -1874,7 +1874,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Not admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
 			"Id": "C006"
@@ -1933,7 +1933,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Induction",
 			"Id": "C009"
@@ -1971,7 +1971,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Induction",
 			"Id": "C011"
@@ -2067,7 +2067,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -2126,7 +2126,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Not admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
 			"Id": "C006"
@@ -2185,7 +2185,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Induction",
 			"Id": "C009"
@@ -2223,7 +2223,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Induction",
 			"Id": "C011"
@@ -2319,7 +2319,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -2378,7 +2378,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Not admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
 			"Id": "C006"
@@ -2437,7 +2437,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Positioning",
 			"Id": "C009"
@@ -2475,7 +2475,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Positioning",
 			"Id": "C011"
@@ -2571,7 +2571,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -2630,7 +2630,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Not admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
 			"Id": "C006"
@@ -2689,7 +2689,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Positioning",
 			"Id": "C009"
@@ -2727,7 +2727,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Positioning",
 			"Id": "C011"
@@ -2823,7 +2823,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -2882,7 +2882,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Admitted",
 			"Id": "C006"
@@ -2941,7 +2941,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -2979,7 +2979,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -3075,7 +3075,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -3134,7 +3134,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Admitted",
 			"Id": "C006"
@@ -3193,7 +3193,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -3231,7 +3231,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -3327,7 +3327,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -3386,7 +3386,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Admitted",
 			"Id": "C006"
@@ -3445,7 +3445,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -3483,7 +3483,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -3579,7 +3579,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -3638,7 +3638,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Admitted",
 			"Id": "C006"
@@ -3697,7 +3697,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -3735,7 +3735,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -3831,7 +3831,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -3890,7 +3890,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Admitted",
 			"Id": "C006"
@@ -3949,7 +3949,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -3987,7 +3987,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -4083,7 +4083,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -4142,7 +4142,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Admitted",
 			"Id": "C006"
@@ -4201,7 +4201,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -4239,7 +4239,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -4335,7 +4335,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -4394,7 +4394,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Admitted",
 			"Id": "C006"
@@ -4453,7 +4453,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -4491,7 +4491,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -4587,7 +4587,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -4646,7 +4646,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Admitted",
 			"Id": "C006"
@@ -4705,7 +4705,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -4743,7 +4743,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -4839,7 +4839,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -4898,7 +4898,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Admitted",
 			"Id": "C006"
@@ -4957,7 +4957,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -4995,7 +4995,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -5091,7 +5091,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -5150,7 +5150,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Admitted",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Admitted",
 			"Id": "C006"
@@ -5209,7 +5209,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -5247,7 +5247,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -5343,7 +5343,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -5402,7 +5402,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -5461,7 +5461,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -5499,7 +5499,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -5595,7 +5595,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -5654,7 +5654,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -5713,7 +5713,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -5751,7 +5751,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -5847,7 +5847,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -5906,7 +5906,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -5965,7 +5965,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -6003,7 +6003,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -6099,7 +6099,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -6158,7 +6158,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -6217,7 +6217,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -6255,7 +6255,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -6351,7 +6351,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -6410,7 +6410,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -6469,7 +6469,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -6507,7 +6507,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -6603,7 +6603,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -6662,7 +6662,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -6721,7 +6721,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -6759,7 +6759,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -6855,7 +6855,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -6914,7 +6914,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -6973,7 +6973,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -7011,7 +7011,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -7107,7 +7107,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -7166,7 +7166,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -7225,7 +7225,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -7263,7 +7263,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -7359,7 +7359,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -7418,7 +7418,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -7477,7 +7477,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -7515,7 +7515,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -7611,7 +7611,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -7670,7 +7670,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -7729,7 +7729,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -7767,7 +7767,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -7863,7 +7863,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -7922,7 +7922,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -7981,7 +7981,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -8019,7 +8019,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -8115,7 +8115,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -8174,7 +8174,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -8233,7 +8233,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -8271,7 +8271,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -8367,7 +8367,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -8426,7 +8426,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -8485,7 +8485,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -8523,7 +8523,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -8619,7 +8619,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -8678,7 +8678,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -8737,7 +8737,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -8775,7 +8775,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -8871,7 +8871,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -8930,7 +8930,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PreOp",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PreOp",
 			"Id": "C006"
@@ -8989,7 +8989,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -9027,7 +9027,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -9123,7 +9123,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -9182,7 +9182,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In Room",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In Room",
 			"Id": "C006"
@@ -9241,7 +9241,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -9279,7 +9279,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -9375,7 +9375,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -9434,7 +9434,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In Room",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In Room",
 			"Id": "C006"
@@ -9493,7 +9493,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -9531,7 +9531,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -9627,7 +9627,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -9686,7 +9686,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Induction",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Induction",
 			"Id": "C006"
@@ -9745,7 +9745,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -9783,7 +9783,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -9879,7 +9879,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -9938,7 +9938,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Induction",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Induction",
 			"Id": "C006"
@@ -9997,7 +9997,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -10035,7 +10035,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -10131,7 +10131,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -10190,7 +10190,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Induction",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Induction",
 			"Id": "C006"
@@ -10249,7 +10249,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -10287,7 +10287,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -10383,7 +10383,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -10442,7 +10442,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Positioning",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Positioning",
 			"Id": "C006"
@@ -10501,7 +10501,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -10539,7 +10539,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -10635,7 +10635,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -10694,7 +10694,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Positioning",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Positioning",
 			"Id": "C006"
@@ -10753,7 +10753,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -10791,7 +10791,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -10887,7 +10887,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -10946,7 +10946,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Positioning",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Positioning",
 			"Id": "C006"
@@ -11005,7 +11005,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -11043,7 +11043,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -11139,7 +11139,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -11198,7 +11198,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -11257,7 +11257,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -11295,7 +11295,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -11391,7 +11391,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -11450,7 +11450,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -11509,7 +11509,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -11547,7 +11547,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -11643,7 +11643,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -11702,7 +11702,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -11761,7 +11761,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -11799,7 +11799,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -11895,7 +11895,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -11954,7 +11954,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -12013,7 +12013,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -12051,7 +12051,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -12147,7 +12147,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -12206,7 +12206,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -12265,7 +12265,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -12303,7 +12303,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -12399,7 +12399,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -12458,7 +12458,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -12517,7 +12517,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -12555,7 +12555,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -12651,7 +12651,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -12710,7 +12710,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -12769,7 +12769,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -12807,7 +12807,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -12903,7 +12903,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -12962,7 +12962,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -13021,7 +13021,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -13059,7 +13059,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -13155,7 +13155,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -13214,7 +13214,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -13273,7 +13273,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -13311,7 +13311,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -13407,7 +13407,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -13466,7 +13466,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -13525,7 +13525,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -13563,7 +13563,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -13659,7 +13659,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -13718,7 +13718,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -13777,7 +13777,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -13815,7 +13815,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -13911,7 +13911,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -13970,7 +13970,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -14029,7 +14029,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -14067,7 +14067,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -14163,7 +14163,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -14222,7 +14222,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -14281,7 +14281,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -14319,7 +14319,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -14415,7 +14415,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -14474,7 +14474,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -14533,7 +14533,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -14571,7 +14571,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -14667,7 +14667,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -14726,7 +14726,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -14785,7 +14785,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure Started",
 			"Id": "C009"
@@ -14823,7 +14823,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -14919,7 +14919,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -14978,7 +14978,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -15037,7 +15037,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Closing",
 			"Id": "C009"
@@ -15075,7 +15075,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -15171,7 +15171,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -15230,7 +15230,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -15289,7 +15289,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Closing",
 			"Id": "C009"
@@ -15327,7 +15327,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -15423,7 +15423,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -15482,7 +15482,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -15541,7 +15541,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure ended",
 			"Id": "C009"
@@ -15579,7 +15579,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -15675,7 +15675,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -15734,7 +15734,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -15793,7 +15793,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Procedure ended",
 			"Id": "C009"
@@ -15831,7 +15831,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -15927,7 +15927,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
 			"Id": "C003"
@@ -15986,7 +15986,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -16045,7 +16045,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Emergence",
 			"Id": "C009"
@@ -16083,7 +16083,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -16179,7 +16179,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Admitted",
 			"Id": "C003"
@@ -16238,7 +16238,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -16297,7 +16297,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Emergence",
 			"Id": "C009"
@@ -16335,7 +16335,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -16431,7 +16431,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Admitted",
 			"Id": "C003"
@@ -16490,7 +16490,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -16549,7 +16549,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Emergence",
 			"Id": "C009"
@@ -16587,7 +16587,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -16683,7 +16683,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Admitted",
 			"Id": "C003"
@@ -16742,7 +16742,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -16801,7 +16801,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Leave OR",
 			"Id": "C009"
@@ -16839,7 +16839,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -16935,7 +16935,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Admitted",
 			"Id": "C003"
@@ -16994,7 +16994,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -17053,7 +17053,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -17091,7 +17091,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure Started",
 			"Id": "C011"
@@ -17187,7 +17187,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -17246,7 +17246,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -17305,7 +17305,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -17343,7 +17343,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Closing",
 			"Id": "C011"
@@ -17439,7 +17439,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -17498,7 +17498,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -17557,7 +17557,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -17595,7 +17595,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:35",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Closing",
 			"Id": "C011"
@@ -17691,7 +17691,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -17750,7 +17750,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -17809,7 +17809,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -17847,7 +17847,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure ended",
 			"Id": "C011"
@@ -17943,7 +17943,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -18002,7 +18002,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -18061,7 +18061,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -18099,7 +18099,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Procedure ended",
 			"Id": "C011"
@@ -18195,7 +18195,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -18254,7 +18254,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -18313,7 +18313,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -18351,7 +18351,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Emergence",
 			"Id": "C011"
@@ -18447,7 +18447,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -18506,7 +18506,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -18565,7 +18565,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -18603,7 +18603,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Emergence",
 			"Id": "C011"
@@ -18699,7 +18699,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -18758,7 +18758,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -18817,7 +18817,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -18855,7 +18855,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Emergence",
 			"Id": "C011"
@@ -18951,7 +18951,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -19010,7 +19010,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -19069,7 +19069,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -19107,7 +19107,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Leave OR",
 			"Id": "C011"
@@ -19203,7 +19203,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -19262,7 +19262,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -19321,7 +19321,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -19359,7 +19359,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -19455,7 +19455,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -19514,7 +19514,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -19573,7 +19573,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -19611,7 +19611,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -19707,7 +19707,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -19766,7 +19766,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -19825,7 +19825,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -19863,7 +19863,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -19959,7 +19959,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -20018,7 +20018,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -20077,7 +20077,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -20115,7 +20115,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -20211,7 +20211,7 @@
 			"StartDelay": 0,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In PreOp",
 			"Id": "C003"
@@ -20270,7 +20270,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure Started",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure Started",
 			"Id": "C006"
@@ -20329,7 +20329,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PACU",
 			"Id": "C009"
@@ -20367,7 +20367,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -20463,7 +20463,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In OR",
 			"Id": "C003"
@@ -20522,7 +20522,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Closing",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Closing",
 			"Id": "C006"
@@ -20581,7 +20581,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -20619,7 +20619,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -20715,7 +20715,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "In OR",
 			"Id": "C003"
@@ -20774,7 +20774,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Closing",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Closing",
 			"Id": "C006"
@@ -20833,7 +20833,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -20871,7 +20871,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -20967,7 +20967,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Induction",
 			"Id": "C003"
@@ -21026,7 +21026,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Closing",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Closing",
 			"Id": "C006"
@@ -21085,7 +21085,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -21123,7 +21123,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -21219,7 +21219,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Induction",
 			"Id": "C003"
@@ -21278,7 +21278,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure ended",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure ended",
 			"Id": "C006"
@@ -21337,7 +21337,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -21375,7 +21375,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -21471,7 +21471,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Positioning",
 			"Id": "C003"
@@ -21530,7 +21530,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Procedure ended",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Procedure ended",
 			"Id": "C006"
@@ -21589,7 +21589,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -21627,7 +21627,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -21723,7 +21723,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -21782,7 +21782,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Emergence",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Emergence",
 			"Id": "C006"
@@ -21841,7 +21841,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -21879,7 +21879,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -21975,7 +21975,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -22034,7 +22034,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Emergence",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Emergence",
 			"Id": "C006"
@@ -22093,7 +22093,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -22131,7 +22131,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -22227,7 +22227,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -22286,7 +22286,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Emergence",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Emergence",
 			"Id": "C006"
@@ -22345,7 +22345,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -22383,7 +22383,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -22479,7 +22479,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -22538,7 +22538,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Emergence",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Emergence",
 			"Id": "C006"
@@ -22597,7 +22597,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -22635,7 +22635,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -22731,7 +22731,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -22790,7 +22790,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "Leave OR",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Leave OR",
 			"Id": "C006"
@@ -22849,7 +22849,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -22887,7 +22887,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -22983,7 +22983,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -23042,7 +23042,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PACU",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PACU",
 			"Id": "C006"
@@ -23101,7 +23101,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -23139,7 +23139,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -23235,7 +23235,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -23294,7 +23294,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PACU",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PACU",
 			"Id": "C006"
@@ -23353,7 +23353,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -23391,7 +23391,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PACU",
 			"Id": "C011"
@@ -23487,7 +23487,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -23546,7 +23546,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PACU",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PACU",
 			"Id": "C006"
@@ -23605,7 +23605,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -23643,7 +23643,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Left PACU",
 			"Id": "C011"
@@ -23739,7 +23739,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -23798,7 +23798,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PACU",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PACU",
 			"Id": "C006"
@@ -23857,7 +23857,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -23895,7 +23895,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Left PACU",
 			"Id": "C011"
@@ -23991,7 +23991,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -24050,7 +24050,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PACU",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PACU",
 			"Id": "C006"
@@ -24109,7 +24109,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -24147,7 +24147,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Left PACU",
 			"Id": "C011"
@@ -24243,7 +24243,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -24302,7 +24302,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PACU",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PACU",
 			"Id": "C006"
@@ -24361,7 +24361,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -24399,7 +24399,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Left PACU",
 			"Id": "C011"
@@ -24495,7 +24495,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -24554,7 +24554,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PACU",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PACU",
 			"Id": "C006"
@@ -24613,7 +24613,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -24651,7 +24651,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Left PACU",
 			"Id": "C011"
@@ -24747,7 +24747,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -24806,7 +24806,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PACU",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PACU",
 			"Id": "C006"
@@ -24865,7 +24865,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -24903,7 +24903,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Left PACU",
 			"Id": "C011"
@@ -24999,7 +24999,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -25058,7 +25058,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PACU",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PACU",
 			"Id": "C006"
@@ -25117,7 +25117,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -25155,7 +25155,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Left PACU",
 			"Id": "C011"
@@ -25251,7 +25251,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "18:05",
 			"SchStartTime": "15:00",
-			"ImageName": "Laser",
+			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Procedure Started",
 			"Id": "C003"
@@ -25310,7 +25310,7 @@
 			"StartDelay": 5,
 			"SchEndTime": "16:10",
 			"SchStartTime": "10:30",
-			"ImageName": "In PACU",
+			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "In PACU",
 			"Id": "C006"
@@ -25369,7 +25369,7 @@
 			"StartDelay": 2,
 			"SchEndTime": "13:40",
 			"SchStartTime": "7:22",
-			"ImageName": "Latex",
+			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "Left PACU",
 			"Id": "C009"
@@ -25407,7 +25407,7 @@
 			"StartDelay": -5,
 			"SchEndTime": "14:30",
 			"SchStartTime": "7:15",
-			"ImageName": "Robot",
+			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "Left PACU",
 			"Id": "C011"

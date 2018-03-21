@@ -25,7 +25,8 @@
   <text class="text1 text3" attr.x="{{operation.RX + (operation.Width/2) }}%"  y="20%">{{operation.OpName}}</text>
   <text class="text1 text2" attr.x="{{operation.RX + (operation.Width/2) }}%"  y="50%" alignment-baseline="middle" font-weight="bold"  text-anchor="middle">{{operation.Status}}</text>
   <text class="text1" attr.x="{{operation.RX + (operation.Width/2) }}%"  y="80%" alignment-baseline="middle" font-weight="bold" text-anchor="middle">{{operation.TimeDisplay}}</text>
-  </g>
+  <image *ngIf="operation.ImageName" attr.x="{{operation.RX + (operation.Width/12) }}%"  y="60%" width="35px" height="35px"  attr.xlink:href="../../../assets/{{operation.ImageName}}.png"></image>
+</g>
   </svg>
   </div>
   <div class ="clearfix"></div>
