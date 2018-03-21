@@ -7,6 +7,7 @@ import {Observable} from 'rxjs/Observable';
 import { Http } from '@angular/http';
 import { Procedure } from '../../../view-models/ord';
 import {Globals} from '../../globals';
+import { Alert } from '../../../view-models/alert';
 
 @Component({
     selector: 'app-header',
@@ -21,6 +22,8 @@ export class AppHeaderComponent implements AfterViewInit {
     interval: any;
     list: Procedure[];
     counter = 0;
+    // tslint:disable-next-line:max-line-length
+    items: Alert[];
 
     chartOptions = {
         responsive: true
@@ -54,6 +57,7 @@ export class AppHeaderComponent implements AfterViewInit {
     ngAfterViewInit() {
         this.loadFromFile();
         this.getDatas();
+        this.loadAlertData();
           }
 
           loadFromFile() {
@@ -84,5 +88,12 @@ export class AppHeaderComponent implements AfterViewInit {
                     r => this.Header = r,
                 );
         }
+
+        loadAlertData() {
+        this.http.get('assets/alert.json').subscribe(result => {
+          this.items = result.json() as Alert[];
+      }, error => console.error(error));
+      console.log(this.list);
+      }
     }
 

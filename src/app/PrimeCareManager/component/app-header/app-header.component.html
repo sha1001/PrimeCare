@@ -13,16 +13,9 @@
                 <div class="space text2">PACU Utilization: {{Header.pacuutilization}}</div>
         </div>
         <div class="section">
-        <mat-list>
-            
-           <!--      //Todo this need to changed 
-               <mat-list-item> OR Utilization: {{Header.orutilization}}</mat-list-item>
-                <mat-list-item> PACU Utilization: {{Header.pacuutilization}}</mat-list-item>
-                <mat-list-item> PACU Utilization: {{globals.currentCounter}}</mat-list-item>  -->
-
-                
-                
-               </mat-list>
+        <mat-list class="app-class" >
+               <mat-list-item *ngFor="let item of items"> {{item.name}} : {{item.message}} </mat-list-item> 
+        </mat-list>
         </div>
         <div class="section">
                 <canvas
