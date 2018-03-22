@@ -34,18 +34,13 @@ export class SidenavComponent implements OnInit, AfterViewInit {
 
   ngOnInit() {
 
-    console.log('Nitin');
-
     this.router.events.subscribe(() => {
-      console.log('Nitin2');
       if (this.router.url.includes('signin')) {
         this.sidetop = 0;
         this.sidemarginbottom = 0;
-        console.log('sidetop1');
        } else {
         this.sidetop = 200;
         this.sidemarginbottom = 50;
-        console.log('sidetop2');
        }
     });
    
@@ -56,11 +51,9 @@ export class SidenavComponent implements OnInit, AfterViewInit {
     if (this.router.url.includes('signin')) {
       this.sidetop = 0;
       this.sidemarginbottom = 0;
-      console.log('sidetop1');
      } else {
       this.sidetop = 200;
       this.sidemarginbottom = 50;
-      console.log('sidetop2');
      }
   }
 

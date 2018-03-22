@@ -43,11 +43,11 @@
 table {
     width: 98%;
     border-collapse: collapse;
-    border: 1px solid rgb(219, 238, 244);
+    border: 0px solid rgb(219, 238, 244);
   }
   
   table td {
-    border: 1px solid rgb(219, 238, 244);
+    border: 0px solid rgb(219, 238, 244);
   }
   .cardcontent{
     font-family: Calibri;
@@ -182,8 +182,13 @@ table {
     display: none;
 }
 ::ng-deep .mat-select {
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(49, 143, 156);
+}
+::ng-deep .mat-select-content{
+  font-family: Calibri;
+  background-color:  rgb(219, 238, 244);
+  font-size: 17px;   
 }
 
          
