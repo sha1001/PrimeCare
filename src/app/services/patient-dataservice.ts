@@ -20,6 +20,6 @@ patientSc: Observable<any>;
       (response) => response.json()
     );
     let item: PatientScreen;
-    return this.patientSc.subscribe((items: PatientScreen[]) => item = items.find(p => p.Id === 3));
+    return this.patientSc.subscribe((items: PatientScreen[]) => item = items.find(p => p.ID === 3));
   }
 }
