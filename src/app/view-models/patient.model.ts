@@ -1,20 +1,21 @@
 export interface Patient {
-    patient: Array<string>;
-    location: string;
-    disposition: string;
-    surgeon: string;
-    anesthesia: string;
-    procedure: string;
-    start: string;
-    status: string;
     StatusColor: string;
-    cons: string;
-    hp: string;
-    xray: string;
-    lab: string;
-    ekg: string;
+    EKG: string;
+    Lab:string;
+    XRay:string;
+    HP: string;
+    Consent:string;
+    Status: string;
+    StartTime:string;
+    Procedure:string;
+    Anesthologist:string;
+    SurgeonName:string;
+    Disposition:string;
+    Location:string;
+    Info:string;
+    PatientID:string;
     }
     export interface PatientScreen {
-       Id: number;
-       screen: Patient[];
+       ID: number;
+       Patient: Patient[];
     }
