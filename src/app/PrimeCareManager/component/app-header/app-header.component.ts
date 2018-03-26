@@ -24,6 +24,7 @@ export class AppHeaderComponent implements AfterViewInit {
     counter = 0;
     // tslint:disable-next-line:max-line-length
     items: Alert[];
+    alert: string[];
 
     chartOptions = {
         responsive: true
@@ -65,6 +66,7 @@ export class AppHeaderComponent implements AfterViewInit {
             this.http.get('assets/Procedure_full.json').subscribe(result => {
               this.list = result.json() as Procedure[];
               this.timeDisplay = this.list[0].CurrentTime;
+              this.alert = this.list[0].Alert;
           }, error => console.error(error));
           console.log(this.list);
           }
@@ -75,6 +77,8 @@ export class AppHeaderComponent implements AfterViewInit {
             }
             this.timeDisplay = this.list.filter(
                       pro => pro.Id === (this.counter + 1))[0].CurrentTime;
+            this.alert = this.list.filter(
+                        pro => pro.Id === (this.counter + 1))[0].Alert;
                       this.globals.currentCounter = this.counter++;
           }
           getDatas() {

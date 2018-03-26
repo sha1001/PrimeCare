@@ -44,7 +44,7 @@
 
        <ng-container matColumnDef="status">
            <mat-header-cell class="headertext" *matHeaderCellDef> Status </mat-header-cell>
-           <mat-cell class="columntext" *matCellDef="let patient" style="flex: 1; min-height: 48px; display: flex; align-items: center;" [ngStyle]=changeBackground(patient.StatusColor)>{{patient.Status}} </mat-cell>
+           <mat-cell class="columntext" *matCellDef="let patient" style="flex: 1; min-height: 48px; display: flex; align-items: center; margin-right: 20px" [ngStyle]=changeBackground(patient.StatusColor)>{{patient.Status}} </mat-cell>
          </ng-container>
 
      <ng-container matColumnDef="cons">

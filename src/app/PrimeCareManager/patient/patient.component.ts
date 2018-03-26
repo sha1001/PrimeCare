@@ -29,7 +29,8 @@ export class PatientComponent  implements OnInit,  AfterViewInit, OnDestroy {
   dataSource: PatientDataSource;
   myData: Patient[] ;
   myDataPatScreen: PatientScreen[] ;
-  displayedColumns = [ 'patient', 'location', 'disposition', 'surgeon', 'anesthesia', 'procedure', 'start',  'status', 'cons', 'hp', 'xray', 'lab', 'ekg' ];
+  displayedColumns = [ 'patient', 'location', 'disposition', 'surgeon', 'anesthesia', 'procedure', 'start',  'status', 'cons',
+   'hp', 'xray', 'lab', 'ekg' ];
   globals1: Globals;
 
 

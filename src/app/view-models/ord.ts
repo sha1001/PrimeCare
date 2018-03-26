@@ -33,6 +33,7 @@ export class Procedure {
     OperationRooms: OperationRoom[];
     CurrentTime: string;
     Id: number;
+    Alert: string[];
 }
 
 
