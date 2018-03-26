@@ -39,6 +39,8 @@ import { PersonelComponent } from './PrimeCareManager/personel/personel/personel
 import { NotifyComponent } from './PrimeCareManager/notify/notify/notify.component';
 import { AnalyticsComponent } from './PrimeCareManager/analytics/analytics/analytics.component';
 
+import { MdDialogsHelperModule } from './PrimeCareManager/procedure/md-dialogs-helper/md-dialogs-helper.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -76,7 +78,8 @@ import { AnalyticsComponent } from './PrimeCareManager/analytics/analytics/analy
     HttpModule,
     ChartsModule,
     FormsModule,
-    MomentModule
+    MomentModule,
+    MdDialogsHelperModule
   ],
   bootstrap: [AppComponent]
 })
