@@ -30,11 +30,11 @@ export class AppHeaderComponent implements AfterViewInit {
         responsive: true
       };
       chartData = [
-        { data: [8 , 5, 3, 2], label: 'Forecast' }
+        { data: [8 , 5, 3, 2], label: 'Forecast after 5pm' }
       ];
 
       // tslint:disable-next-line:max-line-length
-      chartLabels = ['5:00 AM', '7:00 AM', '9:00 AM', '11:00 AM' ];
+      chartLabels = ['5:00 PM', '7:00 PM', '9:00 PM', '11:00 PM' ];
 
       public chartColors: any[] = [
         {
