@@ -1,10 +1,14 @@
-import { Component, AfterViewInit, OnInit, OnDestroy, Injectable } from '@angular/core';
+import { Component, AfterViewInit, OnInit, OnDestroy, Injectable, Renderer2 } from '@angular/core';
 import { AppDataService } from '../../services/app-data.service';
 import { AppDataService2 } from '../../services/app-data.service2';
 import { Ord, OrdItem, Procedure, Operation, OperationRoom } from '../../view-models/Ord';
 import {Observable} from 'rxjs/Observable';
 import { Http } from '@angular/http';
 import {Globals} from '../globals';
+import * as d3 from 'd3';
+
+import { MatDialogsHelperService } from './mat-dialogs-helper/mat-dialogs-helper.service';
+
 
 
 @Component({
@@ -18,17 +22,24 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
   allmedicaldata: Ord[];
   Proc: Procedure;
   list: Procedure[];
-    count = 0;
-    medical: Array<Ord>;
-    interval: any;
-    currentAddIndex = 0;
-    counter = 0;
-    times: number;
-    globals1: Globals;
+  count = 0;
+  medical: Array<Ord>;
+  interval: any;
+  currentAddIndex = 0;
+  counter = 0;
+  times: number;
+  globals1: Globals;
 
-    constructor(private dataService: AppDataService, private http: Http, private globals: Globals) {
+  public confirmResult: boolean;
+
+    // tslint:disable-next-line:max-line-length
+    constructor(private dataService: AppDataService, private http: Http, private globals: Globals, private dialogs: MatDialogsHelperService) {
       this.globals1 = globals;
      }
+
+     clicked(data: string) {
+      this.openConfirmDialogs(data);
+    }
 
     ngAfterViewInit() {
       // this.loadComponent();
@@ -38,21 +49,20 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
       this.getDatas();
     }
 
+    public openConfirmDialogs(data: string) {
+      this.dialogs.confirm('Operation Information', data).subscribe((res) => (this.confirmResult = res));
+    }
+
     loadFromFile() {
       if (!this.list) {
       this.http.get('assets/Procedure_full.json').subscribe(result => {
         this.list = result.json() as Procedure[];
         this.Proc = this.list[this.globals1.currentCounter];
     }, error => console.error(error));
-    console.log(this.Proc);
     }
   }
     loadComponent() {
-    if (this.currentAddIndex === 0) {
-        this.currentAddIndex = 1;
-    } else {
-      this.currentAddIndex = 0;
-    }
+
       this.allmedicaldata = this.dataService.ords;
     }
     loadProcedure() {

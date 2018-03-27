@@ -1,0 +1,21 @@
+.mat-dialog-actions {
+  justify-content: flex-end;
+}
+.mat-dialog-container {
+  background-color: #000;
+  width: 250px;
+  height: 250px
+}
+.textalign1 {
+  font-family: Calibri;
+  text-align:center;
+  background-color: rgb(219, 238, 244);
+  margin: auto;   
+  width: 150px;
+  border: 2px solid rgb(46, 125, 150);;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+ }
