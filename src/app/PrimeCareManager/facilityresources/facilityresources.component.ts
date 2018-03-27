@@ -5,6 +5,9 @@ import { BedItem, OperationBed, Bed, Resources } from '../../view-models/Bed';
 import {Observable} from 'rxjs/Observable';
 import { Http } from '@angular/http';
 import {Globals} from '../globals';
+import { MatDialogsHelperService } from '../procedure/mat-dialogs-helper/mat-dialogs-helper.service';
+import * as d3 from 'd3';
+
 
 @Component({
   selector: 'app-facilityresources',
@@ -20,6 +23,8 @@ export class FacilityresourcesComponent implements  AfterViewInit {
   listResource: Resources[];
   interval: any;
   globals1: Globals;
+  public confirmResult: boolean;
+
 
   chartOptions = {
     responsive: true
@@ -47,7 +52,16 @@ export class FacilityresourcesComponent implements  AfterViewInit {
     console.log(event);
   }
 
-  constructor(private dataService: FacilityDataservice, private http: Http, private globals: Globals) {
+  clicked(data: string) {
+    this.openConfirmDialogs(data);
+  }
+
+  public openConfirmDialogs(data: string) {
+    this.dialogs.confirm('Operation Information', data).subscribe((res) => (this.confirmResult = res));
+  }
+
+  // tslint:disable-next-line:max-line-length
+  constructor(private dataService: FacilityDataservice, private http: Http, private globals: Globals, private dialogs: MatDialogsHelperService) {
     this.globals1 = globals;
     }
 

@@ -4,7 +4,7 @@
     <div *ngIf="resource">
         <div *ngFor="let operationBed of resource.OperationBeds" >
             <svg width ="100%" height = "100" style="margin: 10px">
-                <g *ngFor= "let operation of operationBed.Beds" >
+                <g (click)="clicked(operation.Name)" *ngFor= "let operation of operationBed.Beds" >
                     <rect attr.x="{{operation.RX}}%" y="0" rx="10" ry="10" width="15%" attr.height="100px" attr.fill="{{operation.Color}}" 
                     style = "stroke:rgb(178, 180, 180)"/>
                     <text class="text1 text3" attr.x="{{operation.RX + (15/2) }}%"  y="20%" alignment-baseline="middle" font-weight="bold" font-size = "30px"  text-anchor="middle">{{operation.Name}}</text>
