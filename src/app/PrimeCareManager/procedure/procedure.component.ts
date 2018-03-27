@@ -5,8 +5,9 @@ import { Ord, OrdItem, Procedure, Operation, OperationRoom } from '../../view-mo
 import {Observable} from 'rxjs/Observable';
 import { Http } from '@angular/http';
 import {Globals} from '../globals';
+import * as d3 from 'd3';
 
-import { MdDialogsHelperService } from './md-dialogs-helper/md-dialogs-helper.service';
+import { MatDialogsHelperService } from './mat-dialogs-helper/mat-dialogs-helper.service';
 
 
 
@@ -32,17 +33,13 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
   public confirmResult: boolean;
 
     // tslint:disable-next-line:max-line-length
-    constructor(private dataService: AppDataService, private http: Http, private globals: Globals, private dialogs: MdDialogsHelperService, public renderer: Renderer2) {
-      const rect = document.createElementNS( 'http://www.w3.org/2000/svg' , 'rect' );
-      this.renderer.setAttribute(rect, 'onclick', 'openConfirmDialog()');
-
-      this.renderer.listen(rect, 'click', (evt) => {
-        this.openConfirmDialog();
-        console.log('Clicking the rect', evt);
-    
-      });
+    constructor(private dataService: AppDataService, private http: Http, private globals: Globals, private dialogs: MatDialogsHelperService) {
       this.globals1 = globals;
      }
+
+     clicked(data: string) {
+      this.openConfirmDialogs(data);
+    }
 
     ngAfterViewInit() {
       // this.loadComponent();
@@ -52,8 +49,8 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
       this.getDatas();
     }
 
-    public openConfirmDialog() {
-      this.dialogs.confirm('Confirm Dialog').subscribe((res) => (this.confirmResult = res));
+    public openConfirmDialogs(data: string) {
+      this.dialogs.confirm('Operation Information', data).subscribe((res) => (this.confirmResult = res));
     }
 
     loadFromFile() {
@@ -62,15 +59,10 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
         this.list = result.json() as Procedure[];
         this.Proc = this.list[this.globals1.currentCounter];
     }, error => console.error(error));
-    console.log(this.Proc);
     }
   }
     loadComponent() {
-    if (this.currentAddIndex === 0) {
-        this.currentAddIndex = 1;
-    } else {
-      this.currentAddIndex = 0;
-    }
+
       this.allmedicaldata = this.dataService.ords;
     }
     loadProcedure() {
