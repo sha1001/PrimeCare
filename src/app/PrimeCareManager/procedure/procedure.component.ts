@@ -46,7 +46,7 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
       // this.getTiem();
       this.loadFromFile();
      // this.loadProcedure();
-     // this.getDatas();
+      this.getDatas();
     }
 
     public openConfirmDialogs(data: string) {
