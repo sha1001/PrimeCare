@@ -51,7 +51,7 @@ export class AppHeaderComponent implements AfterViewInit {
       }
 
     constructor(private dataService: HeaderDataservice, private http: Http, public globals: Globals) {
-        this.now = moment().format('DD/MM/YYYY');
+        this.now = moment().format('MM/DD/YYYY');
         this.getData();
         this.counter = globals.currentCounter;
         }
