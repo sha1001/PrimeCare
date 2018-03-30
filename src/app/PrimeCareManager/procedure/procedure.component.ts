@@ -6,6 +6,7 @@ import {Observable} from 'rxjs/Observable';
 import { Http } from '@angular/http';
 import {Globals} from '../globals';
 import * as d3 from 'd3';
+import { Patient } from '../../view-models/patientinfo';
 
 import { MatDialogsHelperService } from './mat-dialogs-helper/mat-dialogs-helper.service';
 
@@ -37,7 +38,7 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
       this.globals1 = globals;
      }
 
-     clicked(data: string) {
+     clicked(data: any) {
       this.openConfirmDialogs(data);
     }
 
@@ -50,10 +51,10 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
     }
 
     public openConfirmDialogs(data: string) {
-      this.dialogs.confirm('Operation Information', data).subscribe((res) => (this.confirmResult = res));
+      this.dialogs.confirm(data).subscribe((res) => (this.confirmResult = res));
     }
 
-    loadFromFile() {
+    loadFromFile() {  
       if (!this.list) {
       this.http.get('assets/Procedure_full.json').subscribe(result => {
         this.list = result.json() as Procedure[];

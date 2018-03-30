@@ -1,3 +1,4 @@
+import { Patient } from './patientinfo';
 
 export class Ord {
     ordItem: OrdItem[];
@@ -22,6 +23,7 @@ export class Operation {
     OperationDuration: number;
     RX: number;
     Width: number;
+    Patient: Patient;
 }
 export class OperationRoom {
     Name: string;

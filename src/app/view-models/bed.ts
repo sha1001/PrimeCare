@@ -1,9 +1,11 @@
+import { Patient } from './patientinfo';
 
 export class BedItem {
     Name: string;
     EstDischargeTime: string;
     Color: string;
     RX: number;
+    Patient: Patient;
 }
 export class OperationBed {
    Beds: BedItem[];

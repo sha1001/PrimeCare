@@ -20,7 +20,7 @@
   <div class ="or-name"><span class ="name-span text4">{{operationRoom.Name}}</span></div>
   <div class="block">
   <svg width ="100%" height = "100">
-  <g (click)="clicked(operationRoom.Name)" *ngFor= "let operation of operationRoom.Operations">
+  <g (click)="clicked(operation.Patient)" *ngFor= "let operation of operationRoom.Operations">
   <rect style="cursor: pointer;" attr.x="{{operation.RX}}%" y="0" rx="10" ry="10" attr.width="{{operation.Width}}%" attr.height="{{operation.Height}}" attr.fill="{{operation.Color}}" />
   <text class="text1 text3" attr.x="{{operation.RX + (operation.Width/2) }}%"  y="20%">{{operation.OpName}}</text>
   <text class="text1 text2" attr.x="{{operation.RX + (operation.Width/2) }}%"  y="50%" alignment-baseline="middle" font-weight="bold"  text-anchor="middle">{{operation.Status}}</text>

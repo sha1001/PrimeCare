@@ -12,7 +12,16 @@
 				"Height": 100,
 				"Color": "#ffa64d",
 				"Width": 15,
-				"RX": 5
+				"RX": 5,
+				"Patient":
+					{
+						"Name": "Pat 1, Test",
+						"Info": "U1000001",
+						"SurgeonName": "Sur1, Test",
+						"Anesthologist": "Anes1, Test",
+						"Crna": "PCRNA1, Test",
+						"CircleNurse": "Nurse1, Test"
+					}
 				}, 
 				{
 				"Name": "Bed2",
@@ -20,7 +29,16 @@
 				"Height": 100,
 				"Color": "#4bdef4",
 				"Width": 15,
-				"RX": 25
+				"RX": 25,
+				"Patient":
+					{
+						"Name": "Pat 1, Test",
+						"Info": "U1000001",
+						"SurgeonName": "Sur1, Test",
+						"Anesthologist": "Anes1, Test",
+						"Crna": "PCRNA1, Test",
+						"CircleNurse": "Nurse1, Test"
+					}
 				}, 
 				{
 				"Name": "Bed3",
@@ -28,7 +46,16 @@
 				"Height": 100,
 				"Color": "#00cc99",
 				"Width": 15,
-				"RX": 45
+				"RX": 45,
+				"Patient":
+					{
+						"Name": "Pat 1, Test",
+						"Info": "U1000001",
+						"SurgeonName": "Sur1, Test",
+						"Anesthologist": "Anes1, Test",
+						"Crna": "PCRNA1, Test",
+						"CircleNurse": "Nurse1, Test"
+					}
 				},
 				{
 				"Name": "Bed4",
@@ -36,7 +63,16 @@
 				"Height": 100,
 				"Color": "#ffa64d",
 				"Width":15,
-				"RX":65
+				"RX":65,
+				"Patient":
+					{
+						"Name": "Pat 1, Test",
+						"Info": "U1000001",
+						"SurgeonName": "Sur1, Test",
+						"Anesthologist": "Anes1, Test",
+						"Crna": "PCRNA1, Test",
+						"CircleNurse": "Nurse1, Test"
+					}
 				}
 			]
 		}
@@ -50,7 +86,16 @@
 				"Height": 100,
 				"Color": "#ffa64d",
 				"Width": 15,
-				"RX": 5
+				"RX": 5,
+				"Patient":
+					{
+						"Name": "Pat 1, Test",
+						"Info": "U1000001",
+						"SurgeonName": "Sur1, Test",
+						"Anesthologist": "Anes1, Test",
+						"Crna": "PCRNA1, Test",
+						"CircleNurse": "Nurse1, Test"
+					}
 				}, 
 				{
 				"Name": "Bed6",
@@ -58,7 +103,16 @@
 				"Height": 100,
 				"Color": "#4bdef4",
 				"Width": 15,
-				"RX": 25
+				"RX": 25,
+				"Patient":
+					{
+						"Name": "Pat 1, Test",
+						"Info": "U1000001",
+						"SurgeonName": "Sur1, Test",
+						"Anesthologist": "Anes1, Test",
+						"Crna": "PCRNA1, Test",
+						"CircleNurse": "Nurse1, Test"
+					}
 				}, 
 				{
 				"Name": "Bed7",
@@ -66,7 +120,16 @@
 				"Height": 100,
 				"Color": "#00cc99",
 				"Width": 15,
-				"RX": 45
+				"RX": 45,
+				"Patient":
+					{
+						"Name": "Pat 1, Test",
+						"Info": "U1000001",
+						"SurgeonName": "Sur1, Test",
+						"Anesthologist": "Anes1, Test",
+						"Crna": "PCRNA1, Test",
+						"CircleNurse": "Nurse1, Test"
+					}
 				},
 				{
 				"Name": "Bed8",
@@ -74,7 +137,16 @@
 				"Height": 100,
 				"Color": "#ffa64d",
 				"Width":15,
-				"RX":65
+				"RX":65,
+				"Patient":
+					{
+						"Name": "Pat 1, Test",
+						"Info": "U1000001",
+						"SurgeonName": "Sur1, Test",
+						"Anesthologist": "Anes1, Test",
+						"Crna": "PCRNA1, Test",
+						"CircleNurse": "Nurse1, Test"
+					}
 				}
 			]
 	}

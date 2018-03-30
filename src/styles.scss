@@ -25,3 +25,12 @@ $candy-app-theme: mat-light-theme(
 body {
     margin: 0;
 }
+.my-full-screen-dialog .mat-dialog-container{
+    background: rgb(197, 197, 197) !important;
+    width: 15em;
+    height: 12em;
+    border-radius: 25px;
+    padding-top: 0em;
+    padding-bottom: 0em;
+  }
+  

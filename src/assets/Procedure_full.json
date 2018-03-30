@@ -21,7 +21,16 @@
 			"ImageName": null,
 			"OpName": "Urethroscopy ",
 			"Status": "In PreOp",
-			"Id": "C001"
+			"Id": "C001",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000002",
 			"TimeRX": 11.111111111111111,
@@ -38,7 +47,16 @@
 			"ImageName": null,
 			"OpName": "Urethroscopy ",
 			"Status": "Not admitted",
-			"Id": "C002"
+			"Id": "C002",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000003",
 			"TimeRX": 11.111111111111111,
@@ -55,10 +73,20 @@
 			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
-			"Id": "C003"
+			"Id": "C003",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}],
 		"Name": "OR1",
 		"ID": 0
+	
 	}, {
 		"Operations": [{
 			"PatientCaseId": "U1000004",
@@ -76,7 +104,16 @@
 			"ImageName": null,
 			"OpName": "Microlaryngoscopy",
 			"Status": "Not admitted",
-			"Id": "C004"
+			"Id": "C004",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000005",
 			"TimeRX": 11.111111111111111,
@@ -93,7 +130,16 @@
 			"ImageName": null,
 			"OpName": "Thyroplasty",
 			"Status": "Not admitted",
-			"Id": "OR02_Case2_ID"
+			"Id": "OR02_Case2_ID",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}],
 		"Name": "OR2",
 		"ID": 0
@@ -114,7 +160,16 @@
 			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
-			"Id": "C006"
+			"Id": "C006",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}],
 		"Name": "OR3",
 		"ID": 0
@@ -135,7 +190,16 @@
 			"ImageName": null,
 			"OpName": "Hysterectomy",
 			"Status": "In PreOp",
-			"Id": "C007"
+			"Id": "C007",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000008",
 			"TimeRX": 11.111111111111111,
@@ -152,7 +216,16 @@
 			"ImageName": null,
 			"OpName": "Incision and Drainage",
 			"Status": "Not admitted",
-			"Id": "C008"
+			"Id": "C008",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}],
 		"Name": "OR4",
 		"ID": 0
@@ -190,7 +263,16 @@
 			"ImageName": null,
 			"OpName": "Appendectomy",
 			"Status": "Not admitted",
-			"Id": "C010"
+			"Id": "C010",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}],
 		"Name": "OR5",
 		"ID": 0
@@ -211,7 +293,16 @@
 			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PreOp",
-			"Id": "C011"
+			"Id": "C011",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000012",
 			"TimeRX": 11.111111111111111,
@@ -228,7 +319,16 @@
 			"ImageName": null,
 			"OpName": "Biopsy",
 			"Status": "Not admitted",
-			"Id": "C012"
+			"Id": "C012",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}],
 		"Name": "OR6",
 		"ID": 0
@@ -274,7 +374,16 @@
 			"ImageName": null,
 			"OpName": "Urethroscopy ",
 			"Status": "In PreOp",
-			"Id": "C001"
+			"Id": "C001",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000002",
 			"TimeRX": 12.222222222222221,
@@ -291,7 +400,16 @@
 			"ImageName": null,
 			"OpName": "Urethroscopy ",
 			"Status": "Not admitted",
-			"Id": "C002"
+			"Id": "C002",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000003",
 			"TimeRX": 12.222222222222221,
@@ -308,7 +426,16 @@
 			"ImageName": "laser",
 			"OpName": "Laser Lithotripsy",
 			"Status": "Not admitted",
-			"Id": "C003"
+			"Id": "C003",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}],
 		"Name": "OR1",
 		"ID": 0
@@ -329,7 +456,16 @@
 			"ImageName": null,
 			"OpName": "Microlaryngoscopy",
 			"Status": "Not admitted",
-			"Id": "C004"
+			"Id": "C004",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000005",
 			"TimeRX": 12.222222222222221,
@@ -346,7 +482,16 @@
 			"ImageName": null,
 			"OpName": "Thyroplasty",
 			"Status": "Not admitted",
-			"Id": "C005"
+			"Id": "C005",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}],
 		"Name": "OR2",
 		"ID": 0
@@ -367,7 +512,16 @@
 			"ImageName": "c-arm",
 			"OpName": "Total knee arthroplasty",
 			"Status": "Not admitted",
-			"Id": "C006"
+			"Id": "C006",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}],
 		"Name": "OR3",
 		"ID": 0
@@ -388,7 +542,16 @@
 			"ImageName": null,
 			"OpName": "Hysterectomy",
 			"Status": "In PreOp",
-			"Id": "C007"
+			"Id": "C007",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000008",
 			"TimeRX": 12.222222222222221,
@@ -405,7 +568,16 @@
 			"ImageName": null,
 			"OpName": "Incision and Drainage",
 			"Status": "Not admitted",
-			"Id": "C008"
+			"Id": "C008",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}],
 		"Name": "OR4",
 		"ID": 0
@@ -426,7 +598,16 @@
 			"ImageName": "latex",
 			"OpName": "Free Flap ",
 			"Status": "In PreOp",
-			"Id": "C009"
+			"Id": "C009",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000010",
 			"TimeRX": 12.222222222222221,
@@ -443,7 +624,16 @@
 			"ImageName": null,
 			"OpName": "Appendectomy",
 			"Status": "Not admitted",
-			"Id": "C010"
+			"Id": "C010",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}],
 		"Name": "OR5",
 		"ID": 0
@@ -464,7 +654,16 @@
 			"ImageName": "robot",
 			"OpName": "Pancreatectomy",
 			"Status": "In PreOp",
-			"Id": "C011"
+			"Id": "C011",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000012",
 			"TimeRX": 12.222222222222221,
@@ -481,7 +680,16 @@
 			"ImageName": null,
 			"OpName": "Biopsy",
 			"Status": "Not admitted",
-			"Id": "C012"
+			"Id": "C012",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}],
 		"Name": "OR6",
 		"ID": 0
@@ -527,7 +735,16 @@
 			"ImageName": null,
 			"OpName": "Urethroscopy ",
 			"Status": "In PreOp",
-			"Id": "C001"
+			"Id": "C001",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000002",
 			"TimeRX": 13.333333333333334,
@@ -544,7 +761,16 @@
 			"ImageName": null,
 			"OpName": "Urethroscopy ",
 			"Status": "Not admitted",
-			"Id": "C002"
+			"Id": "C002",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"PatientCaseId": "U1000003",
 			"TimeRX": 13.333333333333334,
