@@ -10,28 +10,65 @@
 			"RX": 5,
 			"Status": "Empty",
 			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Color": "rgb(196, 189, 151)",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
+			
 		}, {
 			"Name": "Bed 2",
 			"PatientID": "",
 			"RX": 25,
 			"Status": "Empty",
 			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Color": "rgb(196, 189, 151)",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"Name": "Bed 3",
 			"PatientID": "",
 			"RX": 45,
 			"Status": "Empty",
 			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Color": "rgb(196, 189, 151)",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"Name": "Bed 4",
 			"PatientID": "",
 			"RX": 65,
 			"Status": "Empty",
 			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Color": "rgb(196, 189, 151)",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}]
 	}, {
 		"Beds": [{
@@ -40,28 +77,64 @@
 			"RX": 5,
 			"Status": "Empty",
 			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Color": "rgb(196, 189, 151)",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"Name": "Bed 6",
 			"PatientID": "",
 			"RX": 25,
 			"Status": "Empty",
 			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Color": "rgb(196, 189, 151)",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"Name": "Bed 7",
 			"PatientID": "",
 			"RX": 45,
 			"Status": "Empty",
 			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Color": "rgb(196, 189, 151)",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}, {
 			"Name": "Bed 8",
 			"PatientID": "",
 			"RX": 65,
 			"Status": "Empty",
 			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Color": "rgb(196, 189, 151)",
+			"Patient":
+			{
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			}
 		}]
 	}]
 }, {

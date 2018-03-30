@@ -7,6 +7,7 @@ import { Http } from '@angular/http';
 import {Globals} from '../globals';
 import { MatDialogsHelperService } from '../procedure/mat-dialogs-helper/mat-dialogs-helper.service';
 import * as d3 from 'd3';
+import { Patient } from '../../view-models/patientinfo';
 
 
 @Component({
@@ -52,12 +53,13 @@ export class FacilityresourcesComponent implements  AfterViewInit {
     console.log(event);
   }
 
-  clicked(data: string) {
+  clicked(data: any) {
+    console.log(data);
     this.openConfirmDialogs(data);
   }
 
   public openConfirmDialogs(data: string) {
-    this.dialogs.confirm('Operation Information', data).subscribe((res) => (this.confirmResult = res));
+    this.dialogs.confirm(data).subscribe((res) => (this.confirmResult = res));
   }
 
   // tslint:disable-next-line:max-line-length

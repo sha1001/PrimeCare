@@ -1,9 +1,13 @@
 
-<h2 mat-dialog-title>
-  {{ title }}
+
+<h2>
+  <div class="font textalign thick">{{ name }}</div> 
+  <div class="font textalign thick">{{ info }}</div>
 </h2>
 
 <mat-dialog-content>
-  <p>{{ message }}</p>
+  <div class="font">Surgeon: {{surgeonName}}</div>
+  <div class="font">Anesthesiologist: {{anesthologist}}</div>
+  <div class="font">CRNA: {{crna}}</div>
+  <div class="font">Circ Nurse: {{circleNurse}}</div>
 </mat-dialog-content>
-

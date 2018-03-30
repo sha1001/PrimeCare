@@ -3,20 +3,27 @@ import { MatDialog, MatDialogRef } from '@angular/material';
 import { Observable } from 'rxjs/Observable';
 import { InfoDialogComponent } from './info-dialog/info-dialog.component';
 import { map } from 'rxjs/operators/map';
+import { Patient } from '../../../view-models/patientinfo';
 
 @Injectable()
 export class MatDialogsHelperService {
-  public defaultWidth = '30vw';
+  public defaultWidth = '20vw';
 
   constructor(private dialogs: MatDialog) {}
 
-  public confirm(title, message): Observable<boolean> {
+  public confirm(message): Observable<boolean> {
     let dialogRef: MatDialogRef<InfoDialogComponent>;
+    const patient = <Patient>message;
 
-    dialogRef = this.dialogs.open(InfoDialogComponent, { width: this.defaultWidth });
 
-    dialogRef.componentInstance.title = title;
-    dialogRef.componentInstance.message = message;
+    dialogRef = this.dialogs.open(InfoDialogComponent, { panelClass :  'my-full-screen-dialog' } );
+
+    dialogRef.componentInstance.name = patient.Name;
+    dialogRef.componentInstance.info = patient.Info;
+    dialogRef.componentInstance.anesthologist = patient.Anesthologist;
+    dialogRef.componentInstance.circleNurse = patient.CircleNurse;
+    dialogRef.componentInstance.crna = patient.Crna;
+    dialogRef.componentInstance.surgeonName = patient.SurgeonName;
 
     return dialogRef.afterClosed().pipe(map((res) => !!res)); // always return a boolean value
   }
