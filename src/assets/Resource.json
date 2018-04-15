@@ -5160,7 +5160,7 @@
 				"CircleNurse": "Nurse1, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:13:30",
+			"EstDischargeTime": "Discharge Phase II:13:30",
 			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
@@ -5248,7 +5248,7 @@
 				"CircleNurse": "Nurse1, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:13:30",
+			"EstDischargeTime": "Discharge Phase II:13:30",
 			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
@@ -5343,7 +5343,7 @@
 				"CircleNurse": "Nurse1, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:13:30",
+			"EstDischargeTime": "Discharge Phase II:13:30",
 			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
@@ -5438,7 +5438,7 @@
 				"CircleNurse": "Nurse1, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:13:30",
+			"EstDischargeTime": "Discharge Phase II:13:30",
 			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
@@ -5533,7 +5533,7 @@
 				"CircleNurse": "Nurse1, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:13:30",
+			"EstDischargeTime": "Discharge Phase II:13:30",
 			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
@@ -5628,7 +5628,7 @@
 				"CircleNurse": "Nurse1, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:13:30",
+			"EstDischargeTime": "Discharge Phase II:13:30",
 			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
@@ -5723,7 +5723,7 @@
 				"CircleNurse": "Nurse1, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:13:30",
+			"EstDischargeTime": "Discharge Phase II:13:30",
 			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
@@ -5818,7 +5818,7 @@
 				"CircleNurse": "Nurse1, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:13:30",
+			"EstDischargeTime": "Discharge Phase II:13:30",
 			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
@@ -5913,7 +5913,7 @@
 				"CircleNurse": "Nurse1, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:13:30",
+			"EstDischargeTime": "Discharge Phase II:13:30",
 			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
@@ -6588,7 +6588,7 @@
 				"CircleNurse": "Nurse6, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:15:05",
+			"EstDischargeTime": "Discharge Phase II:15:05",
 			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
@@ -6683,7 +6683,7 @@
 				"CircleNurse": "Nurse6, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:15:05",
+			"EstDischargeTime": "Discharge Phase II:15:05",
 			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
@@ -6778,7 +6778,7 @@
 				"CircleNurse": "Nurse6, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:15:05",
+			"EstDischargeTime": "Discharge Phase II:15:05",
 			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
@@ -6873,7 +6873,7 @@
 				"CircleNurse": "Nurse6, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:15:05",
+			"EstDischargeTime": "Discharge Phase II:15:05",
 			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
@@ -6968,7 +6968,7 @@
 				"CircleNurse": "Nurse6, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:15:05",
+			"EstDischargeTime": "Discharge Phase II:15:05",
 			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
@@ -7063,7 +7063,7 @@
 				"CircleNurse": "Nurse6, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:15:05",
+			"EstDischargeTime": "Discharge Phase II:15:05",
 			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
@@ -7158,7 +7158,7 @@
 				"CircleNurse": "Nurse6, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:15:05",
+			"EstDischargeTime": "Discharge Phase II:15:05",
 			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
@@ -7253,7 +7253,7 @@
 				"CircleNurse": "Nurse6, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:15:05",
+			"EstDischargeTime": "Discharge Phase II:15:05",
 			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
@@ -7698,7 +7698,7 @@
 				"CircleNurse": "Nurse7, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:16:15",
+			"EstDischargeTime": "Discharge Phase II:16:15",
 			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 3",
@@ -7793,7 +7793,7 @@
 				"CircleNurse": "Nurse7, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:16:15",
+			"EstDischargeTime": "Discharge Phase II:16:15",
 			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 3",
@@ -7888,7 +7888,7 @@
 				"CircleNurse": "Nurse7, Test"
 			},
 			"Status": "Ready for discharge",
-			"EstDischargeTime": "Estimate Discharge:16:15",
+			"EstDischargeTime": "Discharge Phase II:16:15",
 			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 3",
