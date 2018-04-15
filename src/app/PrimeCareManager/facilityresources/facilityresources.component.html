@@ -9,8 +9,8 @@
                                     <g (click)="clicked(operation.Patient)" *ngFor= "let operation of operationBed.Beds" >
                                         <rect attr.x="{{operation.RX}}%" y="0" rx="10" ry="10" width="19%" attr.height="100px" attr.fill="{{operation.Color}}" 
                                         style = "stroke:rgb(178, 180, 180)"/>
-                                        <text attr.x="{{operation.RX + (15/2) }}%"  y="20%" alignment-baseline = "middle" font-weight="bold" font-size = "30px"  text-anchor = "middle">{{operation.Name}}</text>
-                                        <text attr.x="{{operation.RX + (15/2) }}%"  y="50%"  font-size = "20px"  text-anchor = "middle">{{operation.EstDischargeTime}}</text>
+                                        <text attr.x="{{operation.RX + (15/2) }}%"  y="20%" dx= "30" alignment-baseline = "middle" font-weight="bold" font-size = "30px"  text-anchor = "middle">{{operation.Name}}</text>
+                                        <text attr.x="{{operation.RX + (15/2) }}%"  y="50%" dx= "30" font-size = "20px"  text-anchor = "middle">{{operation.EstDischargeTime}}</text>
                                     </g>
                                 </svg>
                             </div>
