@@ -51,7 +51,7 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
     }
 
     public openConfirmDialogs(data: string) {
-      if(data != null){
+      if (data != null) {
         this.dialogs.confirm(data).subscribe((res) => (this.confirmResult = res));
       }
     }
