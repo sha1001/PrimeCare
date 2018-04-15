@@ -32,10 +32,11 @@ export class FacilityresourcesComponent implements  AfterViewInit {
   };
 
   chartData = [
-    { data: [0 , 12, 12, 25, 25, 37, 37, 50, 37, 37, 25, 25, 12, 12], label: 'PACU occupancy forecast' }
+    { data: [0 , 1, 1, 2, 2, 3, 1, 3, 2, 1, 2, 1, 1, 1], label: 'In' }
+    { data: [0 , 0, -1, -1, -2, -1, -1, -1, -1, -2, -2, -2, -2, -1], label: 'out' }
   ];
   chartData2 = [
-    { data: [3 , 50, 25, 25, 73, 37, 37, 50, 37, 37, 25, 25, 12, 12], label: 'PACU occupancy forecast2' }
+    { data: [0 , 12, 12, 25, 25, 37, 37, 50, 37, 37, 25, 25, 12, 12], label: 'PACU occupancy forecast' }
   ];
 
   // tslint:disable-next-line:max-line-length
@@ -43,12 +44,21 @@ export class FacilityresourcesComponent implements  AfterViewInit {
 
   public chartColors: any[] = [
     {
-      backgroundColor : '#0062ff',
-      pointBackgroundColor: '#0062ff',
-      pointHoverBackgroundColor: '#0062ff',
-      borderColor: '#0062ff',
-      pointBorderColor: '#0062ff',
-      pointHoverBorderColor: '#0062ff',
+      backgroundColor : '#ADD8E6',
+      pointBackgroundColor: '#ADD8E6',
+      pointHoverBackgroundColor: '#ADD8E6',
+      borderColor: '#ADD8E6',
+      pointBorderColor: '#ADD8E6',
+      pointHoverBorderColor: '#ADD8E6',
+      fill: false /* this option hide background-color */
+    },
+    {
+      backgroundColor : '#FF8C00',
+      pointBackgroundColor: '#FF8C00',
+      pointHoverBackgroundColor: '#FF8C00',
+      borderColor: '#FF8C00',
+      pointBorderColor: '#FF8C00',
+      pointHoverBorderColor: '#FF8C00',
       fill: false /* this option hide background-color */
     }];
 
@@ -62,7 +72,9 @@ export class FacilityresourcesComponent implements  AfterViewInit {
   }
 
   public openConfirmDialogs(data: string) {
-    this.dialogs.confirm(data).subscribe((res) => (this.confirmResult = res));
+    if(data != null){
+      this.dialogs.confirm(data).subscribe((res) => (this.confirmResult = res));
+    }
   }
 
   // tslint:disable-next-line:max-line-length
