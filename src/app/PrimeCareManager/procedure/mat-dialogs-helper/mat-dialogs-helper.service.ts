@@ -7,7 +7,7 @@ import { Patient } from '../../../view-models/patientinfo';
 
 @Injectable()
 export class MatDialogsHelperService {
-  public defaultWidth = '20vw';
+  public defaultWidth = '100vw';
 
   constructor(private dialogs: MatDialog) {}
 

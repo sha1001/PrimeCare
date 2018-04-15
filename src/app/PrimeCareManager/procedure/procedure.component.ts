@@ -54,7 +54,7 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
       this.dialogs.confirm(data).subscribe((res) => (this.confirmResult = res));
     }
 
-    loadFromFile() {  
+    loadFromFile() {
       if (!this.list) {
       this.http.get('assets/Procedure_full.json').subscribe(result => {
         this.list = result.json() as Procedure[];

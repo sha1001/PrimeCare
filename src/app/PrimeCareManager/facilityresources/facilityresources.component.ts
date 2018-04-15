@@ -32,7 +32,10 @@ export class FacilityresourcesComponent implements  AfterViewInit {
   };
 
   chartData = [
-    { data: [10 , 15, 25, 30, 35, 40, 90, 80, 70, 55, 40, 35, 25, 15 ], label: 'PACU occupancy forecast' }
+    { data: [0 , 12, 12, 25, 25, 37, 37, 50, 37, 37, 25, 25, 12, 12], label: 'PACU occupancy forecast' }
+  ];
+  chartData2 = [
+    { data: [3 , 50, 25, 25, 73, 37, 37, 50, 37, 37, 25, 25, 12, 12], label: 'PACU occupancy forecast2' }
   ];
 
   // tslint:disable-next-line:max-line-length

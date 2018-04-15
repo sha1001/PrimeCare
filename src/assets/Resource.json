@@ -5149,12 +5149,19 @@
 	"OperationBeds": [{
 		"Beds": [{
 			"Name": "Bed 1",
-			"PatientID": "",
+			"PatientID": "U1000001",
 			"RX": 5,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:13:30",
+			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
 			"PatientID": "",
@@ -5230,12 +5237,19 @@
 	"OperationBeds": [{
 		"Beds": [{
 			"Name": "Bed 1",
-			"PatientID": "",
+			"PatientID": "U1000001",
 			"RX": 5,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:13:30",
+			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
 			"PatientID": "",
@@ -5318,12 +5332,19 @@
 	"OperationBeds": [{
 		"Beds": [{
 			"Name": "Bed 1",
-			"PatientID": "",
+			"PatientID": "U1000001",
 			"RX": 5,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:13:30",
+			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
 			"PatientID": "",
@@ -5406,12 +5427,19 @@
 	"OperationBeds": [{
 		"Beds": [{
 			"Name": "Bed 1",
-			"PatientID": "",
+			"PatientID": "U1000001",
 			"RX": 5,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:13:30",
+			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
 			"PatientID": "",
@@ -5494,12 +5522,19 @@
 	"OperationBeds": [{
 		"Beds": [{
 			"Name": "Bed 1",
-			"PatientID": "",
+			"PatientID": "U1000001",
 			"RX": 5,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:13:30",
+			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
 			"PatientID": "",
@@ -5582,12 +5617,19 @@
 	"OperationBeds": [{
 		"Beds": [{
 			"Name": "Bed 1",
-			"PatientID": "",
+			"PatientID": "U1000001",
 			"RX": 5,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:13:30",
+			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
 			"PatientID": "",
@@ -5670,12 +5712,19 @@
 	"OperationBeds": [{
 		"Beds": [{
 			"Name": "Bed 1",
-			"PatientID": "",
+			"PatientID": "U1000001",
 			"RX": 5,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:13:30",
+			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
 			"PatientID": "",
@@ -5758,12 +5807,19 @@
 	"OperationBeds": [{
 		"Beds": [{
 			"Name": "Bed 1",
-			"PatientID": "",
+			"PatientID": "U1000001",
 			"RX": 5,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:13:30",
+			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
 			"PatientID": "",
@@ -5846,12 +5902,19 @@
 	"OperationBeds": [{
 		"Beds": [{
 			"Name": "Bed 1",
-			"PatientID": "",
+			"PatientID": "U1000001",
 			"RX": 5,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 1, Test",
+				"Info": "U1000001",
+				"SurgeonName": "Sur1, Test",
+				"Anesthologist": "Anes1, Test",
+				"Crna": "PCRNA1, Test",
+				"CircleNurse": "Nurse1, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:13:30",
+			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 2",
 			"PatientID": "",
@@ -6514,12 +6577,19 @@
 			"Color": "rgb(196, 189, 151)"
 		}, {
 			"Name": "Bed 4",
-			"PatientID": "",
+			"PatientID": "U1000009",
 			"RX": 65,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 9, Test",
+				"Info": "U1000009",
+				"SurgeonName": "Sur6, Test",
+				"Anesthologist": "Anes6, Test",
+				"Crna": "PCRNA6, Test",
+				"CircleNurse": "Nurse6, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:15:05",
+			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
 		"Beds": [{
@@ -6602,12 +6672,19 @@
 			"Color": "rgb(196, 189, 151)"
 		}, {
 			"Name": "Bed 4",
-			"PatientID": "",
+			"PatientID": "U1000009",
 			"RX": 65,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 9, Test",
+				"Info": "U1000009",
+				"SurgeonName": "Sur6, Test",
+				"Anesthologist": "Anes6, Test",
+				"Crna": "PCRNA6, Test",
+				"CircleNurse": "Nurse6, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:15:05",
+			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
 		"Beds": [{
@@ -6690,12 +6767,19 @@
 			"Color": "rgb(196, 189, 151)"
 		}, {
 			"Name": "Bed 4",
-			"PatientID": "",
+			"PatientID": "U1000009",
 			"RX": 65,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 9, Test",
+				"Info": "U1000009",
+				"SurgeonName": "Sur6, Test",
+				"Anesthologist": "Anes6, Test",
+				"Crna": "PCRNA6, Test",
+				"CircleNurse": "Nurse6, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:15:05",
+			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
 		"Beds": [{
@@ -6778,12 +6862,19 @@
 			"Color": "rgb(196, 189, 151)"
 		}, {
 			"Name": "Bed 4",
-			"PatientID": "",
+			"PatientID": "U1000009",
 			"RX": 65,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 9, Test",
+				"Info": "U1000009",
+				"SurgeonName": "Sur6, Test",
+				"Anesthologist": "Anes6, Test",
+				"Crna": "PCRNA6, Test",
+				"CircleNurse": "Nurse6, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:15:05",
+			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
 		"Beds": [{
@@ -6866,12 +6957,19 @@
 			"Color": "rgb(196, 189, 151)"
 		}, {
 			"Name": "Bed 4",
-			"PatientID": "",
+			"PatientID": "U1000009",
 			"RX": 65,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 9, Test",
+				"Info": "U1000009",
+				"SurgeonName": "Sur6, Test",
+				"Anesthologist": "Anes6, Test",
+				"Crna": "PCRNA6, Test",
+				"CircleNurse": "Nurse6, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:15:05",
+			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
 		"Beds": [{
@@ -6954,12 +7052,19 @@
 			"Color": "rgb(196, 189, 151)"
 		}, {
 			"Name": "Bed 4",
-			"PatientID": "",
+			"PatientID": "U1000009",
 			"RX": 65,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 9, Test",
+				"Info": "U1000009",
+				"SurgeonName": "Sur6, Test",
+				"Anesthologist": "Anes6, Test",
+				"Crna": "PCRNA6, Test",
+				"CircleNurse": "Nurse6, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:15:05",
+			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
 		"Beds": [{
@@ -7042,12 +7147,19 @@
 			"Color": "rgb(196, 189, 151)"
 		}, {
 			"Name": "Bed 4",
-			"PatientID": "",
+			"PatientID": "U1000009",
 			"RX": 65,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 9, Test",
+				"Info": "U1000009",
+				"SurgeonName": "Sur6, Test",
+				"Anesthologist": "Anes6, Test",
+				"Crna": "PCRNA6, Test",
+				"CircleNurse": "Nurse6, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:15:05",
+			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
 		"Beds": [{
@@ -7130,12 +7242,19 @@
 			"Color": "rgb(196, 189, 151)"
 		}, {
 			"Name": "Bed 4",
-			"PatientID": "",
+			"PatientID": "U1000009",
 			"RX": 65,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 9, Test",
+				"Info": "U1000009",
+				"SurgeonName": "Sur6, Test",
+				"Anesthologist": "Anes6, Test",
+				"Crna": "PCRNA6, Test",
+				"CircleNurse": "Nurse6, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:15:05",
+			"Color": "rgb(250, 192, 144)"
 		}]
 	}, {
 		"Beds": [{
@@ -7568,12 +7687,19 @@
 			"Color": "rgb(196, 189, 151)"
 		}, {
 			"Name": "Bed 2",
-			"PatientID": "",
+			"PatientID": "U1000011",
 			"RX": 25,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 11, Test",
+				"Info": "U1000011",
+				"SurgeonName": "Sur7, Test",
+				"Anesthologist": "Anes7, Test",
+				"Crna": "PCRNA7, Test",
+				"CircleNurse": "Nurse7, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:16:15",
+			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 3",
 			"PatientID": "",
@@ -7656,12 +7782,19 @@
 			"Color": "rgb(196, 189, 151)"
 		}, {
 			"Name": "Bed 2",
-			"PatientID": "",
+			"PatientID": "U1000011",
 			"RX": 25,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 11, Test",
+				"Info": "U1000011",
+				"SurgeonName": "Sur7, Test",
+				"Anesthologist": "Anes7, Test",
+				"Crna": "PCRNA7, Test",
+				"CircleNurse": "Nurse7, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:16:15",
+			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 3",
 			"PatientID": "",
@@ -7744,12 +7877,19 @@
 			"Color": "rgb(196, 189, 151)"
 		}, {
 			"Name": "Bed 2",
-			"PatientID": "",
+			"PatientID": "U1000011",
 			"RX": 25,
-			"Patient": null,
-			"Status": "Empty",
-			"EstDischargeTime": "",
-			"Color": "rgb(196, 189, 151)"
+			"Patient": {
+				"Name": "Pat 11, Test",
+				"Info": "U1000011",
+				"SurgeonName": "Sur7, Test",
+				"Anesthologist": "Anes7, Test",
+				"Crna": "PCRNA7, Test",
+				"CircleNurse": "Nurse7, Test"
+			},
+			"Status": "Ready for discharge",
+			"EstDischargeTime": "Estimate Discharge:16:15",
+			"Color": "rgb(250, 192, 144)"
 		}, {
 			"Name": "Bed 3",
 			"PatientID": "",
