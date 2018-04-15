@@ -1,11 +1,20 @@
 
 .font {
   font-family: Calibri;
-  font-size: 15px;
+  font-size: 25px;
+  line-height: 1.2;
 }
 .textalign {
   text-align:center;
 }
 .thick {
   font-weight: bold;
+}
+.my-full-screen-dialog {
+  max-width: 80vw;
+  border-radius: 10px;
+
+  .mat-dialog-container {
+    max-width: none;
+  }
 }
