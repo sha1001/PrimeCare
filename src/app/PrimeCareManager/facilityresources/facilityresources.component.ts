@@ -32,7 +32,7 @@ export class FacilityresourcesComponent implements  AfterViewInit {
   };
 
   chartData = [
-    { data: [0 , 1, 1, 2, 2, 3, 1, 3, 2, 1, 2, 1, 1, 1], label: 'In' }
+    { data: [0 , 1, 1, 2, 2, 3, 1, 3, 2, 1, 2, 1, 1, 1], label: 'In' },
     { data: [0 , 0, -1, -1, -2, -1, -1, -1, -1, -2, -2, -2, -2, -1], label: 'out' }
   ];
   chartData2 = [
