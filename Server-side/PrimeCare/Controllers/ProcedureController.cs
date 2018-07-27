@@ -6,22 +6,27 @@
 
 using System.Collections.Generic;
 using System.Web.Http;
+using Core.Logging;
 using PrimeCare.Repository;
 
 namespace PrimeCare.Controllers
 {
     public class ProcedureController : ApiController
     {
+        private readonly ILogger logger;
+
         private readonly IProcedureRepository procedureRepository;
 
-        public ProcedureController(IProcedureRepository procedureRepository)
+        public ProcedureController(IProcedureRepository procedureRepository, ILogger logger)
         {
             this.procedureRepository = procedureRepository;
+            this.logger = logger;
         }
 
         // GET api/values
         public IEnumerable<string> Get()
         {
+            logger.LogInformation("This is test dfdf");
             return new[] {"value1", "value2"};
         }
 

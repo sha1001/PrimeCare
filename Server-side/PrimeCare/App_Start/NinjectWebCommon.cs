@@ -6,13 +6,16 @@
 
 using System;
 using System.Web;
+using System.Web.Configuration;
 using System.Web.Http;
 using System.Web.Http.Filters;
+using Core.Logging;
 using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 using Ninject;
 using Ninject.Web.Common;
 using Ninject.Web.Common.WebHost;
-using PrimeCare.App_Start;
+using PrimeCare;
+using PrimeCare.Common;
 using PrimeCare.Repository;
 using WebActivatorEx;
 using WebApiContrib.IoC.Ninject;
@@ -20,7 +23,7 @@ using WebApiContrib.IoC.Ninject;
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(NinjectWebCommon), "Start")]
 [assembly: ApplicationShutdownMethod(typeof(NinjectWebCommon), "Stop")]
 
-namespace PrimeCare.App_Start
+namespace PrimeCare
 {
     /// <summary>
     ///     The NinjectWebCommon
@@ -77,6 +80,8 @@ namespace PrimeCare.App_Start
         private static void RegisterServices(IKernel kernel)
         {
             kernel.Bind<IProcedureRepository>().To<ProcedureRepository>();
+            kernel.Bind<ILogger>().ToMethod(ctx =>
+                new Logger(new LogConfiguration {FileLocation = WebConfigurationManager.AppSettings["FilePath"]}));
         }
     }
 }

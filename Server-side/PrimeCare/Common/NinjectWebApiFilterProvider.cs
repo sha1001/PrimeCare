@@ -11,28 +11,32 @@ using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 using Ninject;
 
-public class NinjectWebApiFilterProvider : IFilterProvider
+namespace PrimeCare.Common
 {
-    private readonly IKernel _kernel;
-
-    public NinjectWebApiFilterProvider(IKernel kernel)
+    public class NinjectWebApiFilterProvider : IFilterProvider
     {
-        _kernel = kernel;
-    }
+        private readonly IKernel _kernel;
 
-    public IEnumerable<FilterInfo> GetFilters(HttpConfiguration configuration, HttpActionDescriptor actionDescriptor)
-    {
-        var controllerFilters = actionDescriptor.ControllerDescriptor.GetFilters()
-            .Select(instance => new FilterInfo(instance, FilterScope.Controller));
-        var actionFilters = actionDescriptor.GetFilters()
-            .Select(instance => new FilterInfo(instance, FilterScope.Action));
+        public NinjectWebApiFilterProvider(IKernel kernel)
+        {
+            _kernel = kernel;
+        }
 
-        var filters = controllerFilters.Concat(actionFilters);
+        public IEnumerable<FilterInfo> GetFilters(HttpConfiguration configuration,
+            HttpActionDescriptor actionDescriptor)
+        {
+            var controllerFilters = actionDescriptor.ControllerDescriptor.GetFilters()
+                .Select(instance => new FilterInfo(instance, FilterScope.Controller));
+            var actionFilters = actionDescriptor.GetFilters()
+                .Select(instance => new FilterInfo(instance, FilterScope.Action));
 
-        foreach (var f in filters)
-            // Injection
-            _kernel.Inject(f.Instance);
+            var filters = controllerFilters.Concat(actionFilters);
 
-        return filters;
+            foreach (var f in filters)
+                // Injection
+                _kernel.Inject(f.Instance);
+
+            return filters;
+        }
     }
 }
