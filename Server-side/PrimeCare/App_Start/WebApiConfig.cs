@@ -5,6 +5,8 @@
 // // --------------------------------------------------------------------------------------------------------------------
 
 using System.Web.Http;
+using System.Web.Http.ExceptionHandling;
+using PrimeCare.Common;
 
 namespace PrimeCare
 {
@@ -22,6 +24,9 @@ namespace PrimeCare
                 "api/{controller}/{id}",
                 new {id = RouteParameter.Optional}
             );
+
+            config.Services.Replace(typeof(IExceptionHandler), new CustomApiExceptionHandler());
+            config.Services.Add(typeof(IExceptionLogger), new CustomApiExceptionLogger());
         }
     }
 }
