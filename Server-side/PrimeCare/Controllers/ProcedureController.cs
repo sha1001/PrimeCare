@@ -30,6 +30,13 @@ namespace PrimeCare.Controllers
             return new[] {"value1", "value2"};
         }
 
+        [Route("api/Procedure/all")]
+        public IEnumerable<string> GetAll()
+        {
+            logger.LogInformation("This is test dfdf");
+            return new[] { "Nitin1", "Js" };
+        }
+
         // GET api/values/5
         public string Get(int id)
         {
