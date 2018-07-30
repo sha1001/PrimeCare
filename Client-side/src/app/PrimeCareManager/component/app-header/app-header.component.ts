@@ -63,7 +63,7 @@ export class AppHeaderComponent implements AfterViewInit {
 
           loadFromFile() {
               if (!this.list) {
-            this.http.get('assets/Procedure_full.json').subscribe(result => {
+            this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/mockprocedure').subscribe(result => {
               this.list = result.json() as Procedure[];
               this.timeDisplay = this.list[0].CurrentTime;
               this.alert = this.list[0].Alert;

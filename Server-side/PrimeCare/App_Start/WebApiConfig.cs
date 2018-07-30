@@ -7,6 +7,7 @@
 using System.Web.Http;
 using System.Web.Http.ExceptionHandling;
 using PrimeCare.Common;
+using System.Web.Http.Cors;
 
 namespace PrimeCare
 {
@@ -25,6 +26,7 @@ namespace PrimeCare
                 new {id = RouteParameter.Optional}
             );
 
+            config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
             config.Services.Replace(typeof(IExceptionHandler), new CustomApiExceptionHandler());
             config.Services.Add(typeof(IExceptionLogger), new CustomApiExceptionLogger());
         }
