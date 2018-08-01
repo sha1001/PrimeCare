@@ -20,17 +20,7 @@
         </mat-list>
         </div>
         <div class="section">
-                <canvas
-                    baseChart
-                    [chartType]="'bar'"
-                    [datasets]="chartData"
-                    [labels]="chartLabels"
-                    [options]="chartOptions"
-                    [legend]="true"
-                    [colors]="chartColors"
-                    
-                    (chartClick)="onChartClick($event)">
-                </canvas>
+            <canvas id="myChart"></canvas>
         </div>
     </div>
    </div>

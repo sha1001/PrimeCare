@@ -58,7 +58,7 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
 
     loadFromFile() {
       if (!this.list) {
-      this.http.get('assets/Procedure_full.json').subscribe(result => {
+      this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/procedure').subscribe(result => {
         this.list = result.json() as Procedure[];
         this.Proc = this.list[this.globals1.currentCounter];
     }, error => console.error(error));

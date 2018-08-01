@@ -87,7 +87,7 @@ export class FacilityresourcesComponent implements  AfterViewInit {
     this.getDatas();
   }
   loadFromFile() {
-    this.http.get('assets/Resource.json').subscribe(result => {
+    this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/facilityresources').subscribe(result => {
       // tslint:disable-next-line:no-debugger
       // debugger;
       this.listResource = result.json() as Resources[];

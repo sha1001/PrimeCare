@@ -54,7 +54,7 @@ export class PatientComponent  implements OnInit,  AfterViewInit, OnDestroy {
 
 public loadFromFile() {
 
-  this.http.get('assets/Patient1.json')
+  this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/Patient')
     .map(response => response.json())
     .subscribe(res => {
       this.myDataPatScreen = res;

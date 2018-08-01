@@ -10,7 +10,7 @@ export class FacilityDataservice {
   constructor(private http: Http) { }
 
   getfacilityRessourceData() {
-    return this.http.get('assets/facilityresources.json').map(
+    return this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/MockFacilityresources').map(
       (response) => response.json()
     );
   }
