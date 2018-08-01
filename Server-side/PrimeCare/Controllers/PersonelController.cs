@@ -22,7 +22,7 @@ namespace PrimeCare.Controllers
         }
 
         // GET api/values
-        [Route("get/header")]
+        [Route("get/personel")]
         [HttpGet]
         public IEnumerable<string> Get()
         {
@@ -31,7 +31,7 @@ namespace PrimeCare.Controllers
         }
 
 
-        [Route("fake/header")]
+        [Route("fake/personel")]
         [HttpGet]
         public IHttpActionResult GetFake()
         {
