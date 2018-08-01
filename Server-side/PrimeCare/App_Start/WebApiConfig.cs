@@ -21,9 +21,9 @@ namespace PrimeCare
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
-                "DefaultApi",
-                "api/{controller}/{id}",
-                new {id = RouteParameter.Optional}
+                name: "DefaultApi",
+                routeTemplate: "api/{controller}/{action}/{id}",
+                defaults: new { id = RouteParameter.Optional }
             );
 
             config.EnableCors(new EnableCorsAttribute("*", "*", "*"));

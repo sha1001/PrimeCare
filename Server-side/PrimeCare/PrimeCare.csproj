@@ -211,8 +211,11 @@
     <Compile Include="Common\NinjectWebApiFilterProvider.cs" />
     <Compile Include="Common\RawJsonActionResult.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Mock\MockFacilityresourcesController.cs" />
+    <Compile Include="Controllers\Mock\MockHeaderController.cs" />
+    <Compile Include="Controllers\Mock\MockPatientController.cs" />
+    <Compile Include="Controllers\Mock\MockPersonelController.cs" />
     <Compile Include="Controllers\ProcedureController.cs" />
-    <Compile Include="Controllers\MockProcedureController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -254,6 +257,12 @@
     <Content Include="App_Data\Procedure_full.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="App_Data\Patient.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\Resource.json" />
+    <Content Include="App_Data\personel.json" />
+    <Content Include="App_Data\header.json" />
     <None Include="Properties\PublishProfiles\PrimeCareDev - Web Deploy.pubxml">
       <SubType>Designer</SubType>
     </None>

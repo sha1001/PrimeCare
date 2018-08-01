@@ -4,13 +4,17 @@
 // // </copyright>
 // // --------------------------------------------------------------------------------------------------------------------
 
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Web.Http;
 using Core.Logging;
+using PrimeCare.Common;
 using PrimeCare.Repository;
 
 namespace PrimeCare.Controllers
 {
+    [RoutePrefix("api")]
     public class ProcedureController : ApiController
     {
         private readonly ILogger logger;
@@ -24,38 +28,22 @@ namespace PrimeCare.Controllers
         }
 
         // GET api/values
+        [Route("get/procedure")]
+        [HttpGet]
         public IEnumerable<string> Get()
         {
             logger.LogInformation("This is test dfdf");
             return new[] {"value1", "value2"};
         }
 
-        [Route("api/Procedure/all")]
-        public IEnumerable<string> GetAll()
-        {
-            logger.LogInformation("This is test dfdf");
-            return new[] { "Nitin1", "Js" };
-        }
 
-        // GET api/values/5
-        public string Get(int id)
+        [Route("fake/procedure")]
+        [HttpGet]
+        public IHttpActionResult GetFake()
         {
-            return "value";
-        }
+            var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/Procedure_full.json") ?? throw new InvalidOperationException());
 
-        // POST api/values
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/values/5
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        public void Delete(int id)
-        {
+            return new RawJsonActionResult(text);
         }
     }
 }
