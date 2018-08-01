@@ -13,7 +13,7 @@ export class AppDataService {
       ordItem:
       [
         {
-          name: 'Urethroscopy1',
+          name: 'Urethroscopy1Nitin',
           color: 'green',
           height: 100,
           width: 200,

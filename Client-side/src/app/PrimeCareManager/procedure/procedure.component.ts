@@ -57,24 +57,17 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
     }
 
     loadFromFile() {
-      if (!this.list) {
       this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/procedure').subscribe(result => {
-        this.list = result.json() as Procedure[];
-        this.Proc = this.list[this.globals1.currentCounter];
+        // this.list = result.json() as Procedure;
+        this.Proc = result.json() as Procedure;
     }, error => console.error(error));
-    }
   }
     loadComponent() {
 
       this.allmedicaldata = this.dataService.ords;
     }
     loadProcedure() {
-      /* if (this.counter === 101) {
-        this.counter = 0;
-      } */
-      this.Proc = this.list.filter(
-                pro => pro.Id === (this.globals1.currentCounter))[0];
-       // this.counter++;
+     this.loadFromFile();
     }
 
     ngOnDestroy() {

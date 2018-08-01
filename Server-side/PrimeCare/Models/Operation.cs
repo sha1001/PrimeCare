@@ -30,5 +30,13 @@ namespace PrimeCare.Models
         public decimal Width { get; set; }
 
         public PatientSummary Patient { get; set; }
+
+        public string TimeRX { get; set; }
+
+        public string TimeDisplay { get; set; }
+
+        public string Height { get; set; }
+
+        public string Color { get; set; }
     }
 }
