@@ -202,10 +202,10 @@
     <Compile Include="Common\CustomApiExceptionLogger.cs" />
     <Compile Include="Common\RawJsonActionResult.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\Mock\MockFacilityresourcesController.cs" />
-    <Compile Include="Controllers\Mock\MockHeaderController.cs" />
-    <Compile Include="Controllers\Mock\MockPatientController.cs" />
-    <Compile Include="Controllers\Mock\MockPersonelController.cs" />
+    <Compile Include="Controllers\FacilityresourcesController.cs" />
+    <Compile Include="Controllers\HeaderController.cs" />
+    <Compile Include="Controllers\PatientController.cs" />
+    <Compile Include="Controllers\PersonelController.cs" />
     <Compile Include="Controllers\ProcedureController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -263,7 +263,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
