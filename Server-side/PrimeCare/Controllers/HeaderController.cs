@@ -8,6 +8,7 @@ using PrimeCare.Repository;
 
 namespace PrimeCare.Controllers
 {
+    [RoutePrefix("api")]
     public class HeaderController : ApiController
     {
 
