@@ -210,6 +210,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Header.cs" />
+    <Compile Include="Models\HeaderChart.cs" />
+    <Compile Include="Models\Operation.cs" />
+    <Compile Include="Models\OperationRoom.cs" />
+    <Compile Include="Models\Patient.cs" />
+    <Compile Include="Models\PatientScreen.cs" />
+    <Compile Include="Models\PatientSummary.cs" />
+    <Compile Include="Models\Procedure.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IProcedureRepository.cs" />
     <Compile Include="Repository\ProcedureRepository.cs" />
@@ -280,9 +288,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
   </ItemGroup>

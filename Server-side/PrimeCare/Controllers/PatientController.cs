@@ -6,7 +6,9 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using Core.Logging;
+using Newtonsoft.Json;
 using PrimeCare.Common;
+using PrimeCare.Models;
 using PrimeCare.Repository;
 
 namespace PrimeCare.Controllers
@@ -15,6 +17,8 @@ namespace PrimeCare.Controllers
     public class PatientController : ApiController
     {
         private readonly ILogger logger;
+
+        private static int patientCount = 0;
 
         private readonly IProcedureRepository procedureRepository;
 
@@ -38,9 +42,19 @@ namespace PrimeCare.Controllers
         [HttpGet]
         public IHttpActionResult GetFake()
         {
+            if (patientCount == 101)
+            {
+                patientCount = 0;
+            }
+            ++patientCount;
+
             var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/Patient.json") ?? throw new InvalidOperationException());
 
-            return new RawJsonActionResult(text);
+            var result = JsonConvert.DeserializeObject<List<PatientScreen>>(text);
+
+            var response = result.FirstOrDefault(x => x.ID == patientCount);
+
+            return Ok(response);
         }
     }
 }

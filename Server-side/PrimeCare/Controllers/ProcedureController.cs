@@ -7,9 +7,12 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Web.Http;
 using Core.Logging;
+using Newtonsoft.Json;
 using PrimeCare.Common;
+using PrimeCare.Models;
 using PrimeCare.Repository;
 
 namespace PrimeCare.Controllers
@@ -17,6 +20,8 @@ namespace PrimeCare.Controllers
     [RoutePrefix("api")]
     public class ProcedureController : ApiController
     {
+        private static int procedureCount = 0;
+
         private readonly ILogger logger;
 
         private readonly IProcedureRepository procedureRepository;
@@ -41,9 +46,20 @@ namespace PrimeCare.Controllers
         [HttpGet]
         public IHttpActionResult GetFake()
         {
+            if (procedureCount == 101)
+            {
+                procedureCount = 0;
+            }
+
+            ++procedureCount;
+
             var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/Procedure_full.json") ?? throw new InvalidOperationException());
 
-            return new RawJsonActionResult(text);
+            var result = JsonConvert.DeserializeObject<List<Procedure>>(text);
+
+            var response = result.FirstOrDefault(x => x.Id == procedureCount);
+
+            return Ok(response);
         }
     }
 }
