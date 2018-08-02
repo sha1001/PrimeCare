@@ -210,6 +210,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BedItem.cs" />
+    <Compile Include="Models\OperationBed.cs" />
+    <Compile Include="Models\Resources.cs" />
     <Compile Include="Models\Header.cs" />
     <Compile Include="Models\HeaderChart.cs" />
     <Compile Include="Models\Operation.cs" />
