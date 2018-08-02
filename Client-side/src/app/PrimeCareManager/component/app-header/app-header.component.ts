@@ -5,7 +5,7 @@ import { HeaderDataservice } from '../../../services/header-dataservice';
 import { Header } from '../../../view-models/header';
 import { Observable } from 'rxjs/Observable';
 import { Http } from '@angular/http';
-import { Procedure } from '../../../view-models/ord';
+import { Procedure } from '../../../view-models/Ord';
 import { Globals } from '../../globals';
 import { Alert } from '../../../view-models/alert';
 import { HeaderChart } from '../../../view-models/headerchart';

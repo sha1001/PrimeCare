@@ -8,6 +8,9 @@ import {Globals} from '../globals';
 import { MatDialogsHelperService } from '../procedure/mat-dialogs-helper/mat-dialogs-helper.service';
 import * as d3 from 'd3';
 import { Patient } from '../../view-models/patientinfo';
+import { PACUChart } from '../../view-models/PACUChart';
+import * as Chart from 'chart.js';
+import { PACUThroughChart } from '../../view-models/PACUThroughChart';
 
 
 @Component({
@@ -24,17 +27,18 @@ export class FacilityresourcesComponent implements  AfterViewInit {
   listResource: Resources[];
   interval: any;
   globals1: Globals;
+  pacuchart: PACUChart;
+  pacuThroughChart: PACUThroughChart;
   public confirmResult: boolean;
 
+  canvas: any;
+  ctx: any;
 
   chartOptions = {
     responsive: true
   };
 
-  chartData = [
-    { data: [0 , 1, 1, 2, 2, 3, 1, 3, 2, 1, 2, 1, 1, 1], label: 'In' },
-    { data: [0 , 0, -1, -1, -2, -1, -1, -1, -1, -2, -2, -2, -2, -1], label: 'out' }
-  ];
+ 
   chartData2 = [
     { data: [0 , 12, 12, 25, 25, 37, 37, 50, 37, 37, 25, 25, 12, 12], label: 'PACU occupancy forecast' }
   ];
@@ -66,6 +70,8 @@ export class FacilityresourcesComponent implements  AfterViewInit {
     console.log(event);
   }
 
+  
+
   clicked(data: any) {
     console.log(data);
     this.openConfirmDialogs(data);
@@ -80,11 +86,15 @@ export class FacilityresourcesComponent implements  AfterViewInit {
   // tslint:disable-next-line:max-line-length
   constructor(private dataService: FacilityDataservice, private http: Http, private globals: Globals, private dialogs: MatDialogsHelperService) {
     this.globals1 = globals;
+    this.loadHeaderChartData();
+    this.loadHeaderChartData1();
     }
 
   ngAfterViewInit() {
     this.loadFromFile();
     this.getDatas();
+    this.loadHeaderChartData();
+    this.loadHeaderChartData1();
   }
   loadFromFile() {
     this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/facilityresources').subscribe(result => {
@@ -108,5 +118,81 @@ export class FacilityresourcesComponent implements  AfterViewInit {
     this.resource = this.listResource.filter(
               pro => pro.Id === (this.globals1.currentCounter))[0];
      // this.counter++;
+  }
+
+  loadHeaderChartData() {
+    this.http
+      .get('assets/PACUChart.json')
+      .map(data => data.json() as PACUChart)
+      .subscribe(data => {
+        this.pacuchart = data;
+        this.canvas = document.getElementById('myChart1');
+        this.ctx = this.canvas.getContext('2d');
+        this.ctx.canvas.width = 600;
+        this.ctx.canvas.height = 350;
+        // tslint:disable-next-line:prefer-const
+        let myChart = new Chart(this.ctx, {
+          type: 'bar',
+          data: {
+            labels: this.pacuchart.PacuChartlabels,
+            datasets: [{
+              label: this.pacuchart.PacuChartdatasetlabel,
+              data: this.pacuchart.PacuChartdataset,
+              backgroundColor: this.pacuchart.PacuChartbackgroundColor,
+              pointBackgroundColor: this.pacuchart.PacuChartbackgroundColor,
+              borderColor: this.pacuchart.PacuChartbackgroundColor,
+              pointBorderColor: this.pacuchart.PacuChartbackgroundColor,
+              fill: false,
+              borderWidth: 1
+            },
+            {
+              label: this.pacuchart.PacuChartdatasetlabel1,
+              data: this.pacuchart.PacuChartdataset1,
+              backgroundColor: this.pacuchart.PacuChartbackgroundColor1,
+              pointBackgroundColor: this.pacuchart.PacuChartbackgroundColor1,
+              borderColor: this.pacuchart.PacuChartbackgroundColor1,
+              pointBorderColor: this.pacuchart.PacuChartbackgroundColor1,
+              fill: false,
+              borderWidth: 1
+            }],
+          },
+          options: {
+            responsive: false,
+          }
+        });
+      });
+  }
+
+  loadHeaderChartData1() {
+    this.http
+      .get('assets/PACUThroughChart.json')
+      .map(data => data.json() as PACUThroughChart)
+      .subscribe(data => {
+        this.pacuThroughChart = data;
+        this.canvas = document.getElementById('myChart2');
+        this.ctx = this.canvas.getContext('2d');
+        this.ctx.canvas.width = 600;
+        this.ctx.canvas.height = 350;
+        // tslint:disable-next-line:prefer-const
+        let myChart = new Chart(this.ctx, {
+          type: 'bar',
+          data: {
+            labels: this.pacuThroughChart.PacuThChartlabels,
+            datasets: [{
+              label: this.pacuThroughChart.PacuThChartdatasetlabel,
+              data: this.pacuThroughChart.PacuThChartdataset,
+              backgroundColor: this.pacuThroughChart.PacuThChartbackgroundColor,
+              pointBackgroundColor: this.pacuThroughChart.PacuThChartbackgroundColor,
+              borderColor: this.pacuThroughChart.PacuThChartbackgroundColor,
+              pointBorderColor: this.pacuThroughChart.PacuThChartbackgroundColor,
+              fill: false,
+              borderWidth: 1
+            }],
+          },
+          options: {
+            responsive: false,
+          }
+        });
+      });
   }
 }

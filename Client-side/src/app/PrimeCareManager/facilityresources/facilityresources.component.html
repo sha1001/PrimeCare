@@ -36,37 +36,22 @@
 </table>
 <p style="padding: 10px;"></p>
 
-<table class="text2" style="width: 100%; table-layout: fixed; font-size:25px">
+<table class="text2" style="width: 100%; table-layout: fixed; font-size:25px; border: 10px "  >
   <tr>
         <td>
-            <p class="text2" style= "margin-left: 150px;">PACU Throughput </p>
-                <div style="width: 80%; margin-left: 50px;" >
-                        <canvas
-                            baseChart
-                            [chartType]="'bar'"
-                            [datasets]="chartData"
-                            [labels]="chartLabels"
-                            [options]="chartOptions"
-                            [legend]="true"
-                            [colors]="chartColors"
-                            (chartClick)="onChartClick($event)">
-                        </canvas>
+            <p class="text2" style= "margin-left: 400px;">PACU Throughput </p>
+                <div>
+                        <canvas  style= "margin-left: 150px;"
+                           id="myChart1"></canvas>
+                    
                 </div>
         </td>
             <td>
-               <p class="text2" style= "margin-left: 150px;">PACU Occupancy Forecast </p>
-                <div style="width: 80%;">
-                        <canvas
-                            baseChart
-                            [chartType]="'bar'"
-                            [datasets]="chartData2"
-                            [labels]="chartLabels"
-                            [options]="chartOptions"
-                            [legend]="true"
-                            [colors]="chartColors"
-                            (chartClick)="onChartClick($event)">
-                        </canvas>
-                </div>
+               <p class="text2" style= "margin-left: 400px;">PACU Occupancy Forecast </p>
+               <div>
+                <canvas  style= "margin-left: 150px;" id="myChart2"></canvas>
+            
+        </div>
         </td>
         
   </tr>
