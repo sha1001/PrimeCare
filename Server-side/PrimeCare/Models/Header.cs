@@ -9,5 +9,7 @@
         public string pacumanager { get; set; }
 
         public string pacuutilization { get; set; }
+
+        public string orutilization { get; set; }
     }
 }

@@ -90,14 +90,14 @@ export class FacilityresourcesComponent implements  AfterViewInit {
     this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/facilityresources').subscribe(result => {
       // tslint:disable-next-line:no-debugger
       // debugger;
-      this.listResource = result.json() as Resources[];
-      this.resource = this.listResource[this.globals1.currentCounter];
+      // this.listResource = result.json() as Resources[];
+      this.resource = result.json() as Resources;
     }, error => console.error(error));
     console.log(this.Bed);
   }
   getDatas() {
     this.interval = setInterval(() => {
-      this.loadResource();
+      this.  loadFromFile();
     }, 3000);
   }
 
