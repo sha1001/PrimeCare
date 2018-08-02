@@ -6,6 +6,6 @@ namespace PrimeCare.Models
     {
         public int ID { get; set; }
 
-        public List<Patient> Patients { get; set; }
+        public List<Patient> Patient { get; set; }
     }
 }

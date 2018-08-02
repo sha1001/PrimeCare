@@ -57,8 +57,8 @@ public loadFromFile() {
   this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/Patient')
     .map(response => response.json())
     .subscribe(res => {
-      this.myDataPatScreen = res;
-      this.dataSource = new PatientDataSource(this.myDataPatScreen[this.globals1.currentCounter].Patient);
+      this.patientscreen = res;
+      this.dataSource = new PatientDataSource(this.patientscreen.Patient);
     });
 }
 
@@ -71,7 +71,7 @@ public loadFromFile() {
 
   getDatas() {
     this.interval = setInterval(() => {
-      this.loadPatient();
+      this.loadFromFile();
     }, 3000);
   }
 

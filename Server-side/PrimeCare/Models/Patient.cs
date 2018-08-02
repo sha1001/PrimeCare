@@ -1,4 +1,6 @@
-﻿namespace PrimeCare.Models
+﻿using System.Collections.Generic;
+
+namespace PrimeCare.Models
 {
     public class Patient
     {
@@ -28,7 +30,7 @@
 
         public string Location { get; set; }
 
-        public string Info { get; set; }
+        public List<string> Info { get; set; }
 
         public string PatientID { get; set; }
     }
