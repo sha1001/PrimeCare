@@ -24,6 +24,7 @@ export class AppHeaderComponent implements AfterViewInit {
   Header: Header;
   interval: any;
   list: Procedure[];
+  procedure: Procedure;
   counter = 0;
   items: Alert[];
   headerchart: HeaderChart;
@@ -44,23 +45,14 @@ export class AppHeaderComponent implements AfterViewInit {
     this.loadHeaderChartData();
   }
   loadFromFile() {
-    if (!this.list) {
       this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/procedure').subscribe(result => {
-        this.list = result.json() as Procedure[];
+        this.procedure = result.json() as Procedure;
         this.timeDisplay = this.list[0].CurrentTime;
-        this.alert = this.list[0].Alert;
+        this.alert = this.procedure.Alert;
       }, error => console.error(error));
-    }
   }
   loadProcedure() {
-    if (this.counter === 101) {
-      this.counter = 0;
-    }
-    this.timeDisplay = this.list.filter(
-      pro => pro.Id === (this.counter + 1))[0].CurrentTime;
-    this.alert = this.list.filter(
-      pro => pro.Id === (this.counter + 1))[0].Alert;
-    this.globals.currentCounter = this.counter++;
+    this.loadFromFile();
   }
   getDatas() {
     this.interval = setInterval(() => {
