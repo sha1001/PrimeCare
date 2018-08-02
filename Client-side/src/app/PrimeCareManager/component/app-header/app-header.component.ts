@@ -11,7 +11,6 @@ import { Alert } from '../../../view-models/alert';
 import { HeaderChart } from '../../../view-models/headerchart';
 import * as Chart from 'chart.js';
 
-
 @Component({
   selector: 'app-header',
   templateUrl: './app-header.component.html',
@@ -47,7 +46,6 @@ export class AppHeaderComponent implements AfterViewInit {
   loadFromFile() {
       this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/procedure').subscribe(result => {
         this.procedure = result.json() as Procedure;
-        this.timeDisplay = this.list[0].CurrentTime;
         this.alert = this.procedure.Alert;
       }, error => console.error(error));
   }
