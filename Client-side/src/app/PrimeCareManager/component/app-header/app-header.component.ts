@@ -76,7 +76,7 @@ export class AppHeaderComponent implements AfterViewInit {
 
   loadHeaderChartData() {
     this.http
-      .get('assets/headerchart.json')
+      .get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/headerchart')
       .map(data => data.json() as HeaderChart)
       .subscribe(data => {
         this.headerchart = data;

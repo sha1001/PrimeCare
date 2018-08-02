@@ -265,6 +265,7 @@
     <Content Include="App_Data\Resource.json" />
     <Content Include="App_Data\personel.json" />
     <Content Include="App_Data\header.json" />
+    <Content Include="App_Data\headerchart.json" />
     <None Include="Properties\PublishProfiles\PrimeCareDev - Web Deploy.pubxml">
       <SubType>Designer</SubType>
     </None>
