@@ -86,15 +86,15 @@ export class FacilityresourcesComponent implements  AfterViewInit {
   // tslint:disable-next-line:max-line-length
   constructor(private dataService: FacilityDataservice, private http: Http, private globals: Globals, private dialogs: MatDialogsHelperService) {
     this.globals1 = globals;
-    this.loadHeaderChartData();
-    this.loadHeaderChartData1();
+    this.loadChartData();
+    this.loadChartData1();
     }
 
   ngAfterViewInit() {
     this.loadFromFile();
     this.getDatas();
-    this.loadHeaderChartData();
-    this.loadHeaderChartData1();
+    this.loadChartData();
+    this.loadChartData1();
   }
   loadFromFile() {
     this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/facilityresources').subscribe(result => {
@@ -107,7 +107,7 @@ export class FacilityresourcesComponent implements  AfterViewInit {
   }
   getDatas() {
     this.interval = setInterval(() => {
-      this.  loadFromFile();
+      this.loadFromFile();
     }, 3000);
   }
 
@@ -120,9 +120,9 @@ export class FacilityresourcesComponent implements  AfterViewInit {
      // this.counter++;
   }
 
-  loadHeaderChartData() {
+  loadChartData() {
     this.http
-      .get('assets/PACUChart.json')
+      .get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/facilityresources/PACUChart')
       .map(data => data.json() as PACUChart)
       .subscribe(data => {
         this.pacuchart = data;
@@ -163,9 +163,9 @@ export class FacilityresourcesComponent implements  AfterViewInit {
       });
   }
 
-  loadHeaderChartData1() {
+  loadChartData1() {
     this.http
-      .get('assets/PACUThroughChart.json')
+      .get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/facilityresources/PACUThroughChart')
       .map(data => data.json() as PACUThroughChart)
       .subscribe(data => {
         this.pacuThroughChart = data;
