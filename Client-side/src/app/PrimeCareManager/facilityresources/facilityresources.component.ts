@@ -11,6 +11,7 @@ import { Patient } from '../../view-models/patientinfo';
 import { PACUChart } from '../../view-models/PACUChart';
 import * as Chart from 'chart.js';
 import { PACUThroughChart } from '../../view-models/PACUThroughChart';
+import { environment } from '../../../environments/environment';
 
 
 @Component({
@@ -97,7 +98,7 @@ export class FacilityresourcesComponent implements  AfterViewInit {
     this.loadChartData1();
   }
   loadFromFile() {
-    this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/facilityresources').subscribe(result => {
+    this.http.get(environment.api_url + '/facilityresources').subscribe(result => {
       // tslint:disable-next-line:no-debugger
       // debugger;
       // this.listResource = result.json() as Resources[];
@@ -122,7 +123,7 @@ export class FacilityresourcesComponent implements  AfterViewInit {
 
   loadChartData() {
     this.http
-      .get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/facilityresources/PACUChart')
+      .get( environment.api_url + '/facilityresources/PACUChart')
       .map(data => data.json() as PACUChart)
       .subscribe(data => {
         this.pacuchart = data;
@@ -165,7 +166,7 @@ export class FacilityresourcesComponent implements  AfterViewInit {
 
   loadChartData1() {
     this.http
-      .get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/facilityresources/PACUThroughChart')
+      .get(environment.api_url + '/facilityresources/PACUThroughChart')
       .map(data => data.json() as PACUThroughChart)
       .subscribe(data => {
         this.pacuThroughChart = data;

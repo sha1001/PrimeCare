@@ -7,7 +7,8 @@ import { Http } from '@angular/http';
 import {Globals} from '../globals';
 import * as d3 from 'd3';
 import { Patient } from '../../view-models/patientinfo';
-
+// tslint:disable-next-line:no-unused-expression
+import { environment } from '../../../environments/environment';
 import { MatDialogsHelperService } from './mat-dialogs-helper/mat-dialogs-helper.service';
 
 
@@ -57,7 +58,7 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
     }
 
     loadFromFile() {
-      this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/procedure').subscribe(result => {
+      this.http.get(environment.api_url + '/procedure').subscribe(result => {
         // this.list = result.json() as Procedure;
         this.Proc = result.json() as Procedure;
     }, error => console.error(error));

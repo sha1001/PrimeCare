@@ -9,7 +9,7 @@ import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
 import 'rxjs/add/observable/fromEvent';
 import { Http } from '@angular/http';
-
+import { environment } from '../../../environments/environment';
 import { Patient, PatientScreen } from '../../view-models/patient.model';
 import { PatientDataservice } from '../../services/patient-dataservice';
 import {Globals} from '../globals';
@@ -54,7 +54,7 @@ export class PatientComponent  implements OnInit,  AfterViewInit, OnDestroy {
 
 public loadFromFile() {
 
-  this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/Patient')
+  this.http.get(environment.api_url + '/Patient')
     .map(response => response.json())
     .subscribe(res => {
       this.patientscreen = res;

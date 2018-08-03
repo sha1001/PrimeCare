@@ -10,6 +10,7 @@ import { Globals } from '../../globals';
 import { Alert } from '../../../view-models/alert';
 import { HeaderChart } from '../../../view-models/headerchart';
 import * as Chart from 'chart.js';
+import { environment } from '../../../../environments/environment';
 
 @Component({
   selector: 'app-header',
@@ -44,7 +45,7 @@ export class AppHeaderComponent implements AfterViewInit {
     this.loadHeaderChartData();
   }
   loadFromFile() {
-      this.http.get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/procedure').subscribe(result => {
+      this.http.get(environment + '/procedure').subscribe(result => {
         this.procedure = result.json() as Procedure;
         this.alert = this.procedure.Alert;
       }, error => console.error(error));
@@ -66,7 +67,7 @@ export class AppHeaderComponent implements AfterViewInit {
 
   loadHeaderChartData() {
     this.http
-      .get('http://primecaredev.centralus.cloudapp.azure.com/api/fake/headerchart')
+      .get(environment + '/headerchart')
       .map(data => data.json() as HeaderChart)
       .subscribe(data => {
         this.headerchart = data;
