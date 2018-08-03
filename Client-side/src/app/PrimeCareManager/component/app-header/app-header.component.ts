@@ -45,7 +45,7 @@ export class AppHeaderComponent implements AfterViewInit {
     this.loadHeaderChartData();
   }
   loadFromFile() {
-      this.http.get(environment + '/procedure').subscribe(result => {
+      this.http.get(environment.api_url + '/procedure').subscribe(result => {
         this.procedure = result.json() as Procedure;
         this.alert = this.procedure.Alert;
       }, error => console.error(error));
@@ -67,7 +67,7 @@ export class AppHeaderComponent implements AfterViewInit {
 
   loadHeaderChartData() {
     this.http
-      .get(environment + '/headerchart')
+      .get(environment.api_url + '/headerchart')
       .map(data => data.json() as HeaderChart)
       .subscribe(data => {
         this.headerchart = data;

@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  api_url: 'http://primecaredev.centralus.cloudapp.azure.com/api/fake'
+  api_url: 'https://primecaredev.centralus.cloudapp.azure.com/api/fake'
 };
