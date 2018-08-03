@@ -212,6 +212,8 @@
     </Compile>
     <Compile Include="Models\BedItem.cs" />
     <Compile Include="Models\OperationBed.cs" />
+    <Compile Include="Models\PACUChart.cs" />
+    <Compile Include="Models\PACUThroughChart.cs" />
     <Compile Include="Models\Resources.cs" />
     <Compile Include="Models\Header.cs" />
     <Compile Include="Models\HeaderChart.cs" />
@@ -266,6 +268,8 @@
     <Content Include="App_Data\personel.json" />
     <Content Include="App_Data\header.json" />
     <Content Include="App_Data\headerchart.json" />
+    <Content Include="App_Data\PACUChart.json" />
+    <Content Include="App_Data\PACUThroughChart.json" />
     <None Include="Properties\PublishProfiles\PrimeCareDev - Web Deploy.pubxml">
       <SubType>Designer</SubType>
     </None>

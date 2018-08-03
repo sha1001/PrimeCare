@@ -47,11 +47,28 @@ namespace PrimeCare.Controllers
             ++count;
 
             var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/Resource.json") ?? throw new InvalidOperationException());
-
             var result = JsonConvert.DeserializeObject<List<Resources>>(text);
-
             var response = result.FirstOrDefault(x => x.Id == count);
 
+            return Ok(response);
+        }
+
+        [Route("fake/facilityresources/PACUThroughChart")]
+        [HttpGet]
+        public IHttpActionResult GetFakePACUThroughChart()
+        {
+            var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/PACUThroughChart.json") ?? throw new InvalidOperationException());
+            var response = JsonConvert.DeserializeObject<PACUThroughChart>(text);
+            return Ok(response);
+        }
+
+
+        [Route("fake/facilityresources/PACUChart")]
+        [HttpGet]
+        public IHttpActionResult GetFakePACUChart()
+        {
+            var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/PACUChart.json") ?? throw new InvalidOperationException());
+            var response = JsonConvert.DeserializeObject<PACUChart>(text);
             return Ok(response);
         }
     }
