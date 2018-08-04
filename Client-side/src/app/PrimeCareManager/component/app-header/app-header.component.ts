@@ -56,6 +56,7 @@ export class AppHeaderComponent implements AfterViewInit {
   getDatas() {
     this.interval = setInterval(() => {
       this.loadProcedure();
+      this.globals.currentCounter = this.counter++;
     }, 3000);
   }
   public getData(): void {

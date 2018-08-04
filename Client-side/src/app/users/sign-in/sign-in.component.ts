@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { NgForm } from '@angular/forms';
 import { UserApi } from '../user-api';
+import { Http } from '@angular/http';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-sign-in',
@@ -16,13 +18,16 @@ export class SignInComponent {
 
   constructor(private userApi: UserApi,
               private router: Router,
-              private route: ActivatedRoute) { }
+              private route: ActivatedRoute, private http: Http) { }
 
   onSubmit(signInForm: NgForm) {
 
     if (signInForm.valid) {
       this.submitting = true;
       this.formError = null;
+
+      this.http.delete(environment.api_url + '/reset').subscribe(result => {
+      }, error => console.error(error));
 
       this.userApi.signIn(signInForm.value.username, signInForm.value.password)
         .subscribe((data) => {

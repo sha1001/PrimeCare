@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Mime;
+using System.Web;
 using System.Web.Http;
 using Core.Logging;
 using Newtonsoft.Json;
@@ -20,8 +22,6 @@ namespace PrimeCare.Controllers
     [RoutePrefix("api")]
     public class ProcedureController : ApiController
     {
-        private static int procedureCount = 0;
-
         private readonly ILogger logger;
 
         private readonly IProcedureRepository procedureRepository;
@@ -46,18 +46,22 @@ namespace PrimeCare.Controllers
         [HttpGet]
         public IHttpActionResult GetFake()
         {
-            if (procedureCount == 101)
+            var app = HttpContext.Current.Application["Count"];
+
+            var count = (int)app + 1;
+
+            if (count == 101)
             {
-                procedureCount = 0;
+                HttpContext.Current.Application["Count"] = 0;
             }
 
-            ++procedureCount;
+            HttpContext.Current.Application["Count"] = count;
 
             var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/Procedure_full.json") ?? throw new InvalidOperationException());
 
             var result = JsonConvert.DeserializeObject<List<Procedure>>(text);
 
-            var response = result.FirstOrDefault(x => x.Id == procedureCount);
+            var response = result.FirstOrDefault(x => x.Id == count);
 
             return Ok(response);
         }

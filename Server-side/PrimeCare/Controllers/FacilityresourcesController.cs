@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Web;
 using System.Web.Http;
 using Core.Logging;
 using Newtonsoft.Json;
@@ -15,8 +16,6 @@ namespace PrimeCare.Controllers
     public class FacilityresourcesController : ApiController
     {
         private readonly ILogger logger;
-
-        private static int count = 0;
 
         private readonly IProcedureRepository procedureRepository;
 
@@ -40,11 +39,14 @@ namespace PrimeCare.Controllers
         [HttpGet]
         public IHttpActionResult GetFake()
         {
+            var app = HttpContext.Current.Application["Count"];
+
+            var count = (int)app + 1;
+
             if (count == 101)
             {
-                count = 0;
+                HttpContext.Current.Application["Count"] = 0;
             }
-            ++count;
 
             var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/Resource.json") ?? throw new InvalidOperationException());
             var result = JsonConvert.DeserializeObject<List<Resources>>(text);
