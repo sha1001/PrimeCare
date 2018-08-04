@@ -44,10 +44,8 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
     }
 
     ngAfterViewInit() {
-      // this.loadComponent();
-      // this.getTiem();
+  
       this.loadFromFile();
-     // this.loadProcedure();
       this.getDatas();
     }
 
@@ -59,7 +57,7 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
 
     loadFromFile() {
       this.http.get(environment.api_url + '/procedure').subscribe(result => {
-        // this.list = result.json() as Procedure;
+
         this.Proc = result.json() as Procedure;
     }, error => console.error(error));
   }
@@ -78,6 +76,6 @@ export class ProcedureComponent implements AfterViewInit, OnDestroy {
     getDatas() {
       this.interval = setInterval(() => {
         this.loadProcedure();
-      }, 3000);
+      }, this.globals1.timeinterval);
     }
   }

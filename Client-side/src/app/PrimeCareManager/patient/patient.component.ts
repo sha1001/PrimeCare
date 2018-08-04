@@ -68,7 +68,7 @@ public loadFromFile() {
   getDatas() {
     this.interval = setInterval(() => {
       this.loadFromFile();
-    }, 3000);
+    },  this.globals1.timeinterval);
   }
 }
 

@@ -41,8 +41,9 @@ export class AppHeaderComponent implements AfterViewInit {
   }
   ngAfterViewInit() {
     this.loadFromFile();
-    this.getDatas();
+    this.getDatas(this.globals.timeinterval + 3000);
     this.loadHeaderChartData();
+    this.globals.timeinterval = this.globals.timeinterval + 3000;
   }
   loadFromFile() {
       this.http.get(environment.api_url + '/headeralert').subscribe(result => {
@@ -57,12 +58,13 @@ export class AppHeaderComponent implements AfterViewInit {
     }
 
     this.loadFromFile();
+  console.log(this.counter);
      this.globals.currentCounter = this.counter++;
   }
-  getDatas() {
+  getDatas(timeinterval) {
     this.interval = setInterval(() => {
       this.loadProcedure();
-    }, 3000);
+    }, timeinterval);
   }
   public getData(): void {
     this.dataService.getData()
