@@ -51,14 +51,11 @@ namespace PrimeCare.Controllers
             if ((int)HttpContext.Current.Application["Count"] != 101)
             {
                 var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/Procedure_full.json") ?? throw new InvalidOperationException());
-
                 var result = JsonConvert.DeserializeObject<List<Procedure>>(text);
-
                 var response = result.FirstOrDefault(x => x.Id == (int)app);
 
                 return Ok(response);
             }
-
             return (Ok(string.Empty));
         }
     }

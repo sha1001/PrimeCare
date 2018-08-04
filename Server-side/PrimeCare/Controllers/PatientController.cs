@@ -42,11 +42,8 @@ namespace PrimeCare.Controllers
         public IHttpActionResult GetFake()
         {
             var app = HttpContext.Current.Application["Count"];
-
             var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/Patient.json") ?? throw new InvalidOperationException());
-
             var result = JsonConvert.DeserializeObject<List<PatientScreen>>(text);
-
             var response = result.FirstOrDefault(x => x.ID == (int)app);
 
             return Ok(response);

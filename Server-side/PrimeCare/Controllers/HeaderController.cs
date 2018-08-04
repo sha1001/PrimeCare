@@ -62,7 +62,6 @@ namespace PrimeCare.Controllers
             var app = HttpContext.Current.Application["Count"];
 
             var count = (int)app + 1;
-
             if (count == 101)
             {
                 HttpContext.Current.Application["Count"] = 0;
@@ -70,11 +69,8 @@ namespace PrimeCare.Controllers
             }
 
             HttpContext.Current.Application["Count"] = count;
-
             var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/Procedure_full.json") ?? throw new InvalidOperationException());
-
             var result = JsonConvert.DeserializeObject<List<Procedure>>(text);
-
             var response = result.FirstOrDefault(x => x.Id == count);
 
             return Ok(response);

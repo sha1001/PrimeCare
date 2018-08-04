@@ -17,5 +17,7 @@ namespace PrimeCare.Models
 
         public List<OperationRoom> OperationRooms { get; set; }
 
+        public decimal TimeRX { get; set; }
+
     }
 }

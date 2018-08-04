@@ -9,6 +9,8 @@ namespace PrimeCare.Models
     {
         public string Id { get; set; }
 
+        public string PatientCaseId { get; set; }
+
         public string Status { get; set; }
 
         public string OpName { get; set; }
