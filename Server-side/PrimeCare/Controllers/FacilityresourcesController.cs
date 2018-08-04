@@ -41,16 +41,9 @@ namespace PrimeCare.Controllers
         {
             var app = HttpContext.Current.Application["Count"];
 
-            var count = (int)app + 1;
-
-            if (count == 101)
-            {
-                HttpContext.Current.Application["Count"] = 0;
-            }
-
             var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/Resource.json") ?? throw new InvalidOperationException());
             var result = JsonConvert.DeserializeObject<List<Resources>>(text);
-            var response = result.FirstOrDefault(x => x.Id == count);
+            var response = result.FirstOrDefault(x => x.Id == (int)app);
 
             return Ok(response);
         }

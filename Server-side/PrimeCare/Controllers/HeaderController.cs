@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Web;
 using System.Web.Http;
 using Core.Logging;
 using Newtonsoft.Json;
@@ -49,6 +51,31 @@ namespace PrimeCare.Controllers
             var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/headerchart.json") ?? throw new InvalidOperationException());
 
             var response = JsonConvert.DeserializeObject<HeaderChart>(text);
+
+            return Ok(response);
+        }
+
+        [Route("fake/headeralert")]
+        [HttpGet]
+        public IHttpActionResult GetFakeHeaderAlert()
+        {
+            var app = HttpContext.Current.Application["Count"];
+
+            var count = (int)app + 1;
+
+            if (count == 101)
+            {
+                HttpContext.Current.Application["Count"] = 0;
+                count = (int)HttpContext.Current.Application["Count"];
+            }
+
+            HttpContext.Current.Application["Count"] = count;
+
+            var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/Procedure_full.json") ?? throw new InvalidOperationException());
+
+            var result = JsonConvert.DeserializeObject<List<Procedure>>(text);
+
+            var response = result.FirstOrDefault(x => x.Id == count);
 
             return Ok(response);
         }

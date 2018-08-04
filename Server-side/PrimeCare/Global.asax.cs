@@ -23,7 +23,7 @@ namespace PrimeCare
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            Application.Add("count", 1);
+            Application.Add("Count", 0);
         }
     }
 }

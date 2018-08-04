@@ -47,21 +47,12 @@ namespace PrimeCare.Controllers
         public IHttpActionResult GetFake()
         {
             var app = HttpContext.Current.Application["Count"];
-
-            var count = (int)app + 1;
-
-            if (count == 101)
-            {
-                HttpContext.Current.Application["Count"] = 0;
-            }
-
-            HttpContext.Current.Application["Count"] = count;
-
+        
             var text = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath(@"~/App_Data/Procedure_full.json") ?? throw new InvalidOperationException());
 
             var result = JsonConvert.DeserializeObject<List<Procedure>>(text);
 
-            var response = result.FirstOrDefault(x => x.Id == count);
+            var response = result.FirstOrDefault(x => x.Id == (int)app);
 
             return Ok(response);
         }

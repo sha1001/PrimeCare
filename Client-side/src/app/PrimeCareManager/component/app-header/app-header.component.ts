@@ -45,18 +45,23 @@ export class AppHeaderComponent implements AfterViewInit {
     this.loadHeaderChartData();
   }
   loadFromFile() {
-      this.http.get(environment.api_url + '/procedure').subscribe(result => {
+      this.http.get(environment.api_url + '/headeralert').subscribe(result => {
         this.procedure = result.json() as Procedure;
+        this.timeDisplay = this.procedure.CurrentTime;
         this.alert = this.procedure.Alert;
       }, error => console.error(error));
   }
   loadProcedure() {
+    if (this.counter === 101) {
+      this.counter = 0;
+    }
+
     this.loadFromFile();
+     this.globals.currentCounter = this.counter++;
   }
   getDatas() {
     this.interval = setInterval(() => {
       this.loadProcedure();
-      this.globals.currentCounter = this.counter++;
     }, 3000);
   }
   public getData(): void {
