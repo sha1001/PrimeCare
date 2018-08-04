@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { AfterViewInit, OnDestroy, Injectable } from '@angular/core';
-import { FacilityDataservice } from '../../services/facility.dataservice';
 import { BedItem, OperationBed, Bed, Resources } from '../../view-models/Bed';
 import {Observable} from 'rxjs/Observable';
 import { Http } from '@angular/http';
@@ -34,45 +33,7 @@ export class FacilityresourcesComponent implements  AfterViewInit {
 
   canvas: any;
   ctx: any;
-
-  chartOptions = {
-    responsive: true
-  };
-
- 
-  chartData2 = [
-    { data: [0 , 12, 12, 25, 25, 37, 37, 50, 37, 37, 25, 25, 12, 12], label: 'PACU occupancy forecast' }
-  ];
-
-  // tslint:disable-next-line:max-line-length
-  chartLabels = ['8:00 AM', '9:00 AM', '10:00 AM', '11:00 AM', '12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM',  '8:00 PM', '9:00 PM' ];
-
-  public chartColors: any[] = [
-    {
-      backgroundColor : '#ADD8E6',
-      pointBackgroundColor: '#ADD8E6',
-      pointHoverBackgroundColor: '#ADD8E6',
-      borderColor: '#ADD8E6',
-      pointBorderColor: '#ADD8E6',
-      pointHoverBorderColor: '#ADD8E6',
-      fill: false /* this option hide background-color */
-    },
-    {
-      backgroundColor : '#FF8C00',
-      pointBackgroundColor: '#FF8C00',
-      pointHoverBackgroundColor: '#FF8C00',
-      borderColor: '#FF8C00',
-      pointBorderColor: '#FF8C00',
-      pointHoverBorderColor: '#FF8C00',
-      fill: false /* this option hide background-color */
-    }];
-
-  onChartClick(event) {
-    console.log(event);
-  }
-
   
-
   clicked(data: any) {
     console.log(data);
     this.openConfirmDialogs(data);
@@ -85,7 +46,7 @@ export class FacilityresourcesComponent implements  AfterViewInit {
   }
 
   // tslint:disable-next-line:max-line-length
-  constructor(private dataService: FacilityDataservice, private http: Http, private globals: Globals, private dialogs: MatDialogsHelperService) {
+  constructor(private http: Http, private globals: Globals, private dialogs: MatDialogsHelperService) {
     this.globals1 = globals;
     this.loadChartData();
     this.loadChartData1();
@@ -104,7 +65,6 @@ export class FacilityresourcesComponent implements  AfterViewInit {
       // this.listResource = result.json() as Resources[];
       this.resource = result.json() as Resources;
     }, error => console.error(error));
-    console.log(this.Bed);
   }
   getDatas() {
     this.interval = setInterval(() => {

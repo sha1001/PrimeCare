@@ -19,8 +19,6 @@ import { PatientComponent } from './PrimeCareManager/patient/patient.component';
 import { HeaderDataservice } from './services/header-dataservice';
 
 import { FacilityresourcesComponent } from './PrimeCareManager/facilityresources/facilityresources.component';
-import { FacilityDataservice } from './services/facility.dataservice';
-
 import { ChartsModule } from 'ng2-charts';
 
 import { SignInComponent } from './users/sign-in/sign-in.component';
@@ -61,7 +59,6 @@ import { MatDialogsHelperModule } from './PrimeCareManager/procedure/mat-dialogs
   providers: [
     AppDataService,
     PatientDataservice,
-    FacilityDataservice,
     HeaderDataservice,
     UserService,
     { provide: UserApi, useExisting: UserService },

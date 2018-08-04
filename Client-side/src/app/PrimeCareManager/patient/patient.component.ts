@@ -40,13 +40,9 @@ export class PatientComponent  implements OnInit,  AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit() {
-    // this.loadComponent();
-    // this.getTiem();
     this.loadFromFile();
-   // this.loadProcedure();
     this.getDatas();
   }
-
 
   changeBackground(data): object {
     return {'background-color': data};
@@ -74,10 +70,6 @@ public loadFromFile() {
       this.loadFromFile();
     }, 3000);
   }
-
-  loadPatient() {
-    this.dataSource = new PatientDataSource(this.myDataPatScreen.filter(pro => pro.ID === (this.globals1.currentCounter))[0].Patient);
-  }
 }
 
 
@@ -91,5 +83,4 @@ export class PatientDataSource extends DataSource<any> {
   }
 
   disconnect() {}
-
   }
