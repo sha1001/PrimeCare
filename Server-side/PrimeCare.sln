@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeCare", "PrimeCare\Prim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Logging", "Core.Logging\Core.Logging.csproj", "{4F6EFEE9-90E8-4231-9927-94FE7084FA26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeCare.Common", "PrimeCare.Common\PrimeCare.Common.csproj", "{A8A9DC38-738D-4602-857F-17DABC8AB761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeCare.DataModel", "PrimeCare.DataModel\PrimeCare.DataModel.csproj", "{A5841E17-7A14-43CA-964D-82579AFDE47B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeCare.Test", "PrimeCare.Test\PrimeCare.Test.csproj", "{DC37CF9D-C779-4A2B-99CA-E5BB680D61B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +27,25 @@ Global
 		{4F6EFEE9-90E8-4231-9927-94FE7084FA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F6EFEE9-90E8-4231-9927-94FE7084FA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F6EFEE9-90E8-4231-9927-94FE7084FA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A9DC38-738D-4602-857F-17DABC8AB761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A9DC38-738D-4602-857F-17DABC8AB761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A9DC38-738D-4602-857F-17DABC8AB761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A9DC38-738D-4602-857F-17DABC8AB761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5841E17-7A14-43CA-964D-82579AFDE47B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5841E17-7A14-43CA-964D-82579AFDE47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5841E17-7A14-43CA-964D-82579AFDE47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5841E17-7A14-43CA-964D-82579AFDE47B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC37CF9D-C779-4A2B-99CA-E5BB680D61B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC37CF9D-C779-4A2B-99CA-E5BB680D61B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC37CF9D-C779-4A2B-99CA-E5BB680D61B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC37CF9D-C779-4A2B-99CA-E5BB680D61B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Data.5.0.505.0\lib\NET35
 		SolutionGuid = {D9818AD1-2017-4389-A5C2-09D1185BD07D}
 	EndGlobalSection
 EndGlobal
